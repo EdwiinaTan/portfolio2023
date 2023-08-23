@@ -1,11 +1,7 @@
-import { Button } from "@mui/material"
-
-function Home() {
+export const Home = () => {
   return (
-    <>
-      <Button variant="text">Text</Button>
-    </>
+    <div>
+      <p>Home</p>
+    </div>
   )
 }
-
-export default Home
