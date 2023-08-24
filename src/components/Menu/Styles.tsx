@@ -6,4 +6,7 @@ export const useStyles = makeStyles(() => ({
     flexDirection: "column",
     alignItems: "flex-start",
   },
+  text: {
+    fontFamily: "SFProDisplay",
+  },
 }))
