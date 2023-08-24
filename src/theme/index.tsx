@@ -1,7 +1,17 @@
 import { createTheme } from "@mui/material"
+import { blue, grey } from "@mui/material/colors"
 import SFProDisplayMedium from "../../public/assets/fonts/SF-Pro-Display-Medium.woff"
 
 export const theme = createTheme({
+  palette: {
+    primary: {
+      light: blue[300],
+      main: blue[900],
+    },
+    grey: {
+      "300": grey[300],
+    },
+  },
   typography: {
     fontFamily: "SFProDisplay",
   },
@@ -14,6 +24,10 @@ export const theme = createTheme({
           font-display: swap;
           font-weight: 400;
           src: local('SFProDisplay'), local('SF-Pro-Display-Medium'), url(${SFProDisplayMedium}) format('woff');
+        }
+        li {
+          list-style-type: none;
+          cursor: pointer;
         }
       `,
     },

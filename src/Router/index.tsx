@@ -1,20 +1,12 @@
-import { Outlet, createBrowserRouter } from "react-router-dom"
-import { Menu } from "../components/Menu"
+import { createBrowserRouter } from "react-router-dom"
+import { Layout } from "../components/Layout"
 import { About } from "../pages/About"
 import { Cv } from "../pages/Cv"
 import { Home } from "../pages/Home"
 
-// eslint-disable-next-line react-refresh/only-export-components
-const AppLayout = () => (
-  <div style={{ display: "flex" }}>
-    <Menu />
-    <Outlet />
-  </div>
-)
-
 export const router = createBrowserRouter([
   {
-    element: <AppLayout />,
+    element: <Layout />,
     children: [
       {
         path: "/",
@@ -26,6 +18,30 @@ export const router = createBrowserRouter([
       },
       {
         path: "/cv",
+        element: <Cv />,
+      },
+      {
+        path: "/tech",
+        element: <Cv />,
+      },
+      {
+        path: "/design",
+        element: <Cv />,
+      },
+      {
+        path: "/peint",
+        element: <Cv />,
+      },
+      {
+        path: "/draw",
+        element: <Cv />,
+      },
+      {
+        path: "/shop",
+        element: <Cv />,
+      },
+      {
+        path: "/inspo",
         element: <Cv />,
       },
     ],

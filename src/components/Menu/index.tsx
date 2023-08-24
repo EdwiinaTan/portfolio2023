@@ -1,5 +1,6 @@
-import { Button } from "@mui/material"
+import { Box, Divider } from "@mui/material"
 import { useNavigate } from "react-router"
+import { Link } from "../Link"
 import { useStyles } from "./Styles"
 
 export const Menu = () => {
@@ -7,16 +8,34 @@ export const Menu = () => {
   const classes = useStyles()
 
   return (
-    <div className={classes.container}>
-      <Button onClick={() => navigate("/")}>Home</Button>
-      <Button onClick={() => navigate("/about")}>About</Button>
-      <Button onClick={() => navigate("/cv")}>Cv</Button>
-      {/* IA website / design  */}
-      <p>RESOURCES</p>
-      <p>SKETCH</p>
-      {/* peinture, sketch */}
-      <h1>ETSY SHOP</h1>
-      <h1>CONTACT</h1>
-    </div>
+    <nav className={classes.container}>
+      <div className={classes.block}>
+        <Link router="" text="Logo" />
+        <Link router="about" text="About me" />
+        <Link router="cv" text="CV" />
+      </div>
+      <Divider variant="fullWidth" />
+      <div className={classes.block}>
+        <span className={classes.uppercase}>RESOURCES</span>
+        <Link router="tech" text="Tech" />
+        <Link router="design" text="Design" />
+        <Box sx={{ p: 1 }}></Box>
+        <span className={classes.uppercase}>SKETCH</span>
+        <Link router="peint" text="Peint" />
+        <Link router="draw" text="Draw" />
+        <Box sx={{ p: 1 }}></Box>
+        <span className={classes.uppercase}>ETSY</span>
+        <Link router="shop" text="My shop" />
+        <Link router="inspo" text="Inspo" />
+      </div>
+      <Divider variant="fullWidth" />
+      <div className={classes.block}>
+        <span className={classes.uppercase}>CONTACT</span>
+        <li onClick={() => navigate("/cv")}>Mail</li>
+        <li onClick={() => navigate("/cv")}>GitHub</li>
+        <li onClick={() => navigate("/cv")}>Linkedin</li>
+        <li onClick={() => navigate("/cv")}>EdwiiStudio</li>
+      </div>
+    </nav>
   )
 }
