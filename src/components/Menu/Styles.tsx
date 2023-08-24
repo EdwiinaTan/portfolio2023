@@ -19,7 +19,10 @@ export const useStyles = makeStyles<Theme>((theme: Theme) => ({
     width: "100%",
     padding: "16px 24px",
   },
-  uppercase: {
+  title: {
+    letterSpacing: 1,
+    fontSize: 12,
+    color: theme.palette.grey[500],
     textTransform: "uppercase",
   },
 }))

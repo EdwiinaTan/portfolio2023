@@ -1,4 +1,6 @@
 export interface LinkProps {
-  router: string
+  router?: string
+  link?: string
   text: string
+  noBlank?: boolean
 }

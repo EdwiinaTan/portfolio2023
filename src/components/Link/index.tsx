@@ -11,6 +11,22 @@ export const Link: React.FC<LinkProps> = ({ router, text }) => {
       underline="none"
       color="black"
       onClick={() => navigate(`/${router}`)}
+      style={{ letterSpacing: 0.5 }}
+    >
+      {text}
+    </LinkMui>
+  )
+}
+
+export const LinkTarget: React.FC<LinkProps> = ({ link, text, noBlank }) => {
+  return (
+    <LinkMui
+      href={link}
+      target={noBlank ? "" : "_blank"}
+      underline="hover"
+      rel="noopener"
+      color="black"
+      style={{ letterSpacing: 0.5 }}
     >
       {text}
     </LinkMui>

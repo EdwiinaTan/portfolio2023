@@ -11,7 +11,7 @@ export const Layout = () => {
       }}
     >
       <Menu />
-      <div style={{ marginLeft: 170, paddingLeft: 56 }}>
+      <div style={{ marginLeft: 170, paddingLeft: 56, paddingRight: 56 }}>
         <Outlet />
       </div>
     </div>

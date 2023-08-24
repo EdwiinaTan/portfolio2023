@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material"
-import { blue, grey } from "@mui/material/colors"
+import { blue } from "@mui/material/colors"
 import SFProDisplayMedium from "../../public/assets/fonts/SF-Pro-Display-Medium.woff"
 
 export const theme = createTheme({
@@ -7,9 +7,6 @@ export const theme = createTheme({
     primary: {
       light: blue[300],
       main: blue[900],
-    },
-    grey: {
-      "300": grey[300],
     },
   },
   typography: {
