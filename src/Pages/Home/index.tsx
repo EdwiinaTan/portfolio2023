@@ -1,7 +1,9 @@
 import { Box, Divider } from "@mui/material"
-import logo from "../../../public/assets/logo.jpg"
-import { Body2, Body3, Title2 } from "../../components/Typo"
-import { theme } from "../../theme"
+import animeaux from "../../../public/assets/animeaux.png"
+import gazou from "../../../public/assets/gazou.jpeg"
+import rick from "../../../public/assets/rick.svg"
+import { Card } from "../../components/Card"
+import { Body3, Title2 } from "../../components/Typo"
 import { useStyles } from "./Styles"
 
 export const Home = () => {
@@ -12,30 +14,26 @@ export const Home = () => {
       <Body3>Hello ✧</Body3>
       <Box sx={{ p: 2 }}></Box>
       <Title2>
-        Edwina is a software developer based in France, currently @ Flatsy. She
-        tries to build and finish some fun projects with her little energy she
-        has. I hope you find this portfolio enjoyable and inspiring :)
+        Edwina is a Frontend Developer based in Paris, currently working at
+        Flatsy. She build some fun projects with her little energy. I hope you
+        find this portfolio enjoyable and inspiring :)
       </Title2>
       <Box sx={{ p: 2 }}></Box>
       <Divider />
       <Box sx={{ p: 2 }}></Box>
       <Body3>Projects</Body3>
       <Box sx={{ p: 0.5 }}></Box>
-      <article className={classes.project}>
-        <img
-          src={logo}
-          alt="First project"
-          width={700}
-          style={{
-            border: `1px solid ${theme.palette.grey[300]}`,
-            borderRadius: 8,
-          }}
-        />
-        <div>
-          <Body2>01 | Project</Body2>
-          <Body3>Truc bidule</Body3>
-        </div>
-      </article>
+      <Card
+        src={animeaux}
+        title="01 | Animeaux"
+        subTitle="Animal association"
+        objectFit="contain"
+      />
+      <Box sx={{ p: 4 }}></Box>
+      <Card src={rick} title="02 | Rick & Morty" subTitle="Characters" />
+      <Box sx={{ p: 4 }}></Box>
+      <Card src={gazou} title="03 | Gazou" subTitle="Loofing for gas" />
+      <Box sx={{ p: 4 }}></Box>
     </main>
   )
 }
