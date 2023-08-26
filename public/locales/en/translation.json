@@ -1,5 +1,8 @@
 {
   "animeaux": {
-    "help_volunteers": "Help volunteers"
+    "help_volunteers": "Help volunteers",
+    "intro": "During my last year at school, we had to develop a mobile project of our choice for our end-of-study project. The idea of developing and designing 'Animeaux' mobile application came from a former colleague from Flatsy who was a volunteer in this association and she was facing various problems on mobile.",
+    "tools": "Tools",
+    "repository": "Repository"
   }
 }

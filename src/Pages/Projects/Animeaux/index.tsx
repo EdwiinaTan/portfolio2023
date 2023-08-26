@@ -30,20 +30,7 @@ export const Animeaux = () => {
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 1 }}></Box>
-        <Body4>
-          During my last year at school, we had to develop a mobile project of
-          our choice for our end-of-study project. I Designed and develop
-          "Animeaux" application because a former colleague from Flatsy was a
-          volunteer in this association she was facing various problems on
-          mobile.
-        </Body4>
-        {/* <Body4>
-          Lors de notre dernière année à l'école, nous avions pour obligation de
-          développer un projet mobile au choix pour notre projet de fin d'étude.
-          J'ai conçu et développé l'application "Animaux" car
-          une ancienne collègue de chez Flatsy était bénévole dans cette
-          association et elle faisait face à divers problèmes sur mobile.
-        </Body4> */}
+        <Body4>{t("animeaux.intro")}</Body4>
         <Box sx={{ p: 1 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>

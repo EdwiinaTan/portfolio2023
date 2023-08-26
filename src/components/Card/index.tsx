@@ -14,16 +14,16 @@ export const Card: React.FC<CardProps> = ({
 
   return (
     <article className={classes.project}>
-      <section
-        style={{
-          padding: 40,
-          border: `1px solid ${theme.palette.grey[300]}`,
-          width: 700,
-          height: 400,
-          borderRadius: 8,
-        }}
-      >
-        <LinkDom to="/animeaux">
+      <LinkDom to="/animeaux">
+        <section
+          style={{
+            padding: 40,
+            border: `1px solid ${theme.palette.grey[300]}`,
+            width: 700,
+            height: 400,
+            borderRadius: 8,
+          }}
+        >
           <img
             src={src}
             alt="Animeaux animal association"
@@ -34,8 +34,8 @@ export const Card: React.FC<CardProps> = ({
               objectFit: objectFit,
             }}
           />{" "}
-        </LinkDom>
-      </section>
+        </section>
+      </LinkDom>
       <section>
         <Body2 style={{ color: theme.palette.grey[700] }}>{title}</Body2>
         <Body3 style={{ color: theme.palette.grey[500] }}>{subTitle}</Body3>
