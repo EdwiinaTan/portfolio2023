@@ -25,12 +25,12 @@ export const Menu = () => {
         <Link router="design" text="Design" />
         <Box sx={{ p: 1 }}></Box>
         <span className={classes.title}>SKETCH</span>
-        <Link router="peint" text="Paint" />
+        <Link router="paint" text="Paint" />
         <Link router="draw" text="Draw" />
         <Box sx={{ p: 1 }}></Box>
-        <span className={classes.title}>ETSY</span>
+        {/* <span className={classes.title}>ETSY</span>
         <Link router="shop" text="Shop" />
-        <Link router="inspo" text="Inspo" />
+        <Link router="inspo" text="Inspo" /> */}
       </div>
       <Divider variant="fullWidth" />
       <div className={classes.block}>

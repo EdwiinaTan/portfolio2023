@@ -8,5 +8,9 @@ export const useStyles = makeStyles(() => ({
   },
   container: {
     marginLeft: 170,
+    width: "100%",
+  },
+  containerPage: {
+    padding: "0 56px",
   },
 }))

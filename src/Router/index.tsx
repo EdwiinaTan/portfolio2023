@@ -4,6 +4,7 @@ import { About } from "src/pages/About"
 import { Cv } from "src/pages/Cv"
 import { Home } from "src/pages/Home"
 import { Animeaux } from "src/pages/Projects/Animeaux"
+import { Gazou } from "src/pages/Projects/Gazou"
 import { Design } from "src/pages/Resources/Design"
 import { Tech } from "src/pages/Resources/Tech"
 
@@ -32,7 +33,7 @@ export const router = createBrowserRouter([
         element: <Design />,
       },
       {
-        path: "/peint",
+        path: "/paint",
         element: <Cv />,
       },
       {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: "/animeaux",
         element: <Animeaux />,
+      },
+      {
+        path: "/gazou",
+        element: <Gazou />,
       },
     ],
   },

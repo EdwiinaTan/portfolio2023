@@ -9,15 +9,16 @@ export const Card: React.FC<CardProps> = ({
   title,
   subTitle,
   objectFit = "cover",
+  link,
 }) => {
   const classes = useStyles()
 
   return (
     <article className={classes.project}>
-      <LinkDom to="/animeaux">
+      <LinkDom to={link}>
         <section
           style={{
-            padding: 40,
+            padding: 24,
             border: `1px solid ${theme.palette.grey[300]}`,
             width: 700,
             height: 400,

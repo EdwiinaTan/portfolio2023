@@ -1,4 +1,6 @@
-import { Box, Divider } from "@mui/material"
+import { Box, Button, Divider } from "@mui/material"
+import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import { Card } from "src/components/Card"
 import { LinkTarget } from "src/components/Link"
 import { Body3, Title2 } from "src/components/Typo"
@@ -9,6 +11,8 @@ import rick from "/assets/rick.svg"
 
 export const Home = () => {
   const classes = useStyles()
+  const [seeMore, setSeeMore] = useState<boolean>(false)
+  const { t } = useTranslation()
 
   return (
     <main className={classes.container}>
@@ -24,7 +28,6 @@ export const Home = () => {
       <Box sx={{ p: 2 }}></Box>
       <Divider />
       <Box sx={{ p: 1 }}></Box>
-      <Body3>List : Top 3 / Personal project / School project</Body3>
       <Box sx={{ p: 1 }}></Box>
       <Body3>Projects</Body3>
       <Box sx={{ p: 0.5 }}></Box>
@@ -33,11 +36,35 @@ export const Home = () => {
         title="01 | Animeaux"
         subTitle="Animal association"
         objectFit="contain"
+        link="animeaux"
       />
       <Box sx={{ p: 4 }}></Box>
-      <Card src={rick} title="02 | Rick & Morty" subTitle="Characters" />
+      <Card
+        src={rick}
+        title="02 | Rick & Morty"
+        subTitle="Characters"
+        link="animeaux"
+      />
       <Box sx={{ p: 4 }}></Box>
-      <Card src={gazou} title="03 | Gazou" subTitle="Looking for gas" />
+      <Card
+        src={gazou}
+        title="03 | Gazou"
+        subTitle="Looking for gas"
+        link="gazou"
+      />
+      {!seeMore ? (
+        <Button onClick={() => setSeeMore(true)}>{t("home.see_more")}</Button>
+      ) : (
+        <>
+          <Box sx={{ p: 4 }}></Box>
+          <Card
+            src={rick}
+            title="02 | Rick & Morty"
+            subTitle="Characters"
+            link="animeaux"
+          />
+        </>
+      )}
       <Box sx={{ p: 4 }}></Box>
     </main>
   )

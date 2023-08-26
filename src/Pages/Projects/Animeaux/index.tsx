@@ -4,11 +4,13 @@ import { Link as LinkDom } from "react-router-dom"
 import { LinkTarget } from "src/components/Link"
 import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
 import { theme } from "src/theme"
+import { useStyles } from "./Styles"
 import banner from "/assets/animeaux/banner2.png"
 import intro from "/assets/animeaux/intro.png"
 
 export const Animeaux = () => {
   const { t } = useTranslation()
+  const classes = useStyles()
 
   return (
     <article>
@@ -18,10 +20,9 @@ export const Animeaux = () => {
           alt="Animeaux animal association"
           width="100%"
           height="100%"
-          style={{ borderRadius: 8 }}
         />
       </LinkDom>
-      <Body4 style={{ fontSize: 12 }}>{t("animeaux.translationImage")}</Body4>
+      <Body4 style={{ fontSize: 12 }}>{t("animeaux.translation_image")}</Body4>
       <Box sx={{ p: 2 }}></Box>
       <div style={{ width: "70%", margin: "auto" }}>
         <Body2 style={{ color: theme.palette.grey[600] }}>01 | Animeaux</Body2>
@@ -62,20 +63,28 @@ export const Animeaux = () => {
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
-        <Title2 style={{ textAlign: "center" }}>
-          {t("animeaux.presentation")}
-        </Title2>
-        <Box sx={{ p: 1 }}></Box>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <img src={intro} alt="Animeaux animal association" width="250" />
+        <span className={classes.title}>{t("animeaux.presentation")}</span>
+        <Body2>{t("animeaux.what")}</Body2>
+        <div style={{ display: "flex", gap: 32 }}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Box sx={{ p: 1 }}></Box>
+            <img
+              src={intro}
+              alt="Animeaux animal association"
+              width="250"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <Box sx={{ p: 2 }}></Box>
+            <Body4>{t("animeaux.presPara1")}</Body4>
+            <Box sx={{ p: 1 }}></Box>
+            <Body4>{t("animeaux.presPara2")}</Body4>
+            <Box sx={{ p: 1 }}></Box>
+            <Body4>{t("animeaux.presPara3")}</Body4>
+            <Box sx={{ p: 2 }}></Box>
+          </div>
         </div>
-        <Box sx={{ p: 2 }}></Box>
-        <Body4>{t("animeaux.presPara1")}</Body4>
-        <Box sx={{ p: 1 }}></Box>
-        <Body4>{t("animeaux.presPara2")}</Body4>
-        <Box sx={{ p: 1 }}></Box>
-        <Body4>{t("animeaux.presPara3")}</Body4>
-        <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
         <Title2 style={{ textAlign: "center" }}>{t("animeaux.purpose")}</Title2>

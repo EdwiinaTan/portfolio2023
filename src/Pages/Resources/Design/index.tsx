@@ -1,7 +1,9 @@
-import { useStyles } from "./Styles"
+import { LayoutPage } from "src/components/Layout"
 
 export const Design = () => {
-  const classes = useStyles()
-
-  return <div className={classes.container}>Design</div>
+  return (
+    <LayoutPage>
+      <span>Kinda hard to find a style so here i regroup all of it</span>
+    </LayoutPage>
+  )
 }

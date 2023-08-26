@@ -22,3 +22,18 @@ export const Layout = () => {
     </div>
   )
 }
+
+interface LayoutProps {
+  children: React.ReactNode
+}
+
+export const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
+  const classes = useStyles()
+
+  return (
+    <div className={classes.containerPage}>
+      <Box sx={{ p: 2 }}></Box>
+      {children}
+    </div>
+  )
+}
