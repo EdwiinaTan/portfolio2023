@@ -1,7 +1,7 @@
 import { Box, Divider } from "@mui/material"
-import banner from "../../../../public/assets/animeaux/banner2.png"
-import { Body2, Body3, Body4 } from "../../../components/Typo"
-import { theme } from "../../../theme"
+import { Body2, Body3, Body4 } from "src/components/Typo"
+import { theme } from "src/theme"
+import banner from "/assets/animeaux/banner2.png"
 
 export const Animeaux = () => {
   return (

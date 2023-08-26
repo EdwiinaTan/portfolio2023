@@ -1,4 +1,4 @@
-import { Body1 } from "../../components/Typo"
+import { Body1 } from "src/components/Typo"
 
 export const Cv = () => {
   return (

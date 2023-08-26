@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material"
 import { blue } from "@mui/material/colors"
-import SFProDisplayMedium from "../../public/assets/fonts/SF-Pro-Display-Medium.woff"
+import SFProDisplayMedium from "/assets/fonts/SF-Pro-Display-Medium.woff"
 
 export const theme = createTheme({
   palette: {

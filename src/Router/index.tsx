@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom"
-import { Layout } from "../components/Layout"
-import { About } from "../pages/About"
-import { Cv } from "../pages/Cv"
-import { Home } from "../pages/Home"
-import { Animeaux } from "../pages/Projects/Animeaux"
-import { Tech } from "../pages/Tech"
+import { Layout } from "src/components/Layout"
+import { About } from "src/pages/About"
+import { Cv } from "src/pages/Cv"
+import { Home } from "src/pages/Home"
+import { Animeaux } from "src/pages/Projects/Animeaux"
+import { Design } from "src/pages/Resources/Design"
+import { Tech } from "src/pages/Resources/Tech"
 
 export const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/design",
-        element: <Cv />,
+        element: <Design />,
       },
       {
         path: "/peint",

@@ -1,14 +1,15 @@
 import { Box, Divider } from "@mui/material"
-import animeaux from "../../../public/assets/animeaux.png"
-import gazou from "../../../public/assets/gazou.jpeg"
-import rick from "../../../public/assets/rick.svg"
-import { Card } from "../../components/Card"
-import { LinkTarget } from "../../components/Link"
-import { Body3, Title2 } from "../../components/Typo"
+import { Card } from "src/components/Card"
+import { LinkTarget } from "src/components/Link"
+import { Body3, Title2 } from "src/components/Typo"
 import { useStyles } from "./Styles"
+import animeaux from "/assets/animeaux.png"
+import gazou from "/assets/gazou.jpeg"
+import rick from "/assets/rick.svg"
 
 export const Home = () => {
   const classes = useStyles()
+
   return (
     <main className={classes.container}>
       <Box sx={{ p: 2 }}></Box>
