@@ -23,7 +23,9 @@ export const Home = () => {
       </Title2>
       <Box sx={{ p: 2 }}></Box>
       <Divider />
-      <Box sx={{ p: 2 }}></Box>
+      <Box sx={{ p: 1 }}></Box>
+      <Body3>List : Top 3 / Personal project / School project</Body3>
+      <Box sx={{ p: 1 }}></Box>
       <Body3>Projects</Body3>
       <Box sx={{ p: 0.5 }}></Box>
       <Card
