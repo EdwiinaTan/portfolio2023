@@ -3,6 +3,8 @@ import { Layout } from "../components/Layout"
 import { About } from "../pages/About"
 import { Cv } from "../pages/Cv"
 import { Home } from "../pages/Home"
+import { Animeaux } from "../pages/Projects/Animeaux"
+import { Tech } from "../pages/Tech"
 
 export const router = createBrowserRouter([
   {
@@ -22,7 +24,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/tech",
-        element: <Cv />,
+        element: <Tech />,
       },
       {
         path: "/design",
@@ -43,6 +45,10 @@ export const router = createBrowserRouter([
       {
         path: "/inspo",
         element: <Cv />,
+      },
+      {
+        path: "/animeaux",
+        element: <Animeaux />,
       },
     ],
   },

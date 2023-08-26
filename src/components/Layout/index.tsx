@@ -1,18 +1,17 @@
+import { Box } from "@mui/material"
 import { Outlet } from "react-router"
 import { Menu } from "../Menu"
+import { useStyles } from "./Styles"
 
 export const Layout = () => {
+  const classes = useStyles()
+
   return (
-    <div
-      style={{
-        display: "flex",
-        margin: "0 auto",
-        justifyContent: "space-between",
-      }}
-    >
+    <div className={classes.layout}>
       <Menu />
-      <div style={{ marginLeft: 170, paddingLeft: 56, paddingRight: 56 }}>
+      <div className={classes.container}>
         <Outlet />
+        <Box sx={{ p: 2 }}></Box>
       </div>
     </div>
   )

@@ -1,3 +1,4 @@
+import { Link as LinkDom } from "react-router-dom"
 import { theme } from "../../theme"
 import { Body2, Body3 } from "../Typo"
 import { useStyles } from "./Styles"
@@ -22,20 +23,22 @@ export const Card: React.FC<CardProps> = ({
           borderRadius: 8,
         }}
       >
-        <img
-          src={src}
-          alt="Animeaux animal association"
-          width="100%"
-          height="100%"
-          style={{
-            borderRadius: 8,
-            objectFit: objectFit,
-          }}
-        />
+        <LinkDom to="/animeaux">
+          <img
+            src={src}
+            alt="Animeaux animal association"
+            width="100%"
+            height="100%"
+            style={{
+              borderRadius: 8,
+              objectFit: objectFit,
+            }}
+          />{" "}
+        </LinkDom>
       </section>
       <section>
-        <Body2>{title}</Body2>
-        <Body3>{subTitle}</Body3>
+        <Body2 style={{ color: theme.palette.grey[700] }}>{title}</Body2>
+        <Body3 style={{ color: theme.palette.grey[500] }}>{subTitle}</Body3>
       </section>
     </article>
   )

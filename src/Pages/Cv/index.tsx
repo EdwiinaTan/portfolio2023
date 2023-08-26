@@ -1,7 +1,9 @@
+import { Body1 } from "../../components/Typo"
+
 export const Cv = () => {
   return (
-    <div>
-      <p>CV</p>
-    </div>
+    <main>
+      <Body1>CV</Body1>
+    </main>
   )
 }

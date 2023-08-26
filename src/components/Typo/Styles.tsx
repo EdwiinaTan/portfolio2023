@@ -31,6 +31,7 @@ export const useStyles = makeStyles((theme: Theme) => ({
     fontSize: 24,
     lineHeight: "24px",
     fontWeight: "300",
+    color: theme.palette.grey[700],
     margin: 0,
   },
   body3: {
@@ -39,5 +40,13 @@ export const useStyles = makeStyles((theme: Theme) => ({
     fontWeight: "100",
     color: theme.palette.grey[500],
     margin: 0,
+  },
+  body4: {
+    fontSize: 14,
+    lineHeight: "24px",
+    fontWeight: "100",
+    color: theme.palette.grey[700],
+    margin: 0,
+    padding: 0,
   },
 }))
