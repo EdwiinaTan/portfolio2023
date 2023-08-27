@@ -4,5 +4,17 @@
     "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
     "tools": "Outils",
     "repository": "Répertoire"
+  },
+  "gazou": {
+    "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur."
+  },
+  "lanet": {
+    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles.",
+    "why": "Le but de l'hackaton était de faire la refonte et l'identité du site"
+  },
+  "tech": {
+    "mockups": "Mockups",
+    "icons": "Icones",
+    "ai": "IA"
   }
 }

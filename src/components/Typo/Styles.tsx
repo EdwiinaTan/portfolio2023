@@ -49,4 +49,10 @@ export const useStyles = makeStyles((theme: Theme) => ({
     margin: 0,
     padding: 0,
   },
+  subbody: {
+    letterSpacing: 1,
+    fontSize: 12,
+    color: theme.palette.grey[500],
+    textTransform: "uppercase",
+  },
 }))

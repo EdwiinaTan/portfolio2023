@@ -2,15 +2,13 @@ import { Box, Divider } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
 import { LinkTarget } from "src/components/Link"
-import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
+import { Body2, Body3, Body4, SubBody, Title2 } from "src/components/Typo"
 import { theme } from "src/theme"
-import { useStyles } from "./Styles"
 import banner from "/assets/animeaux/banner2.png"
 import intro from "/assets/animeaux/intro.png"
 
 export const Animeaux = () => {
   const { t } = useTranslation()
-  const classes = useStyles()
 
   return (
     <article>
@@ -49,10 +47,10 @@ export const Animeaux = () => {
             <Body4>AWS - Bucket S3</Body4>
           </div>
           <div>
-            <Body3 style={{ color: "#1D1D1F" }}>Repository</Body3>
+            <Body3 style={{ color: "#1D1D1F" }}>Project</Body3>
             <LinkTarget
               link="https://github.com/EdwiinaTan/animeaux"
-              text="Animeaux"
+              text="Repository"
             />
           </div>
           <div>
@@ -63,7 +61,7 @@ export const Animeaux = () => {
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
-        <span className={classes.title}>{t("animeaux.presentation")}</span>
+        <SubBody>{t("animeaux.presentation")}</SubBody>
         <Body2>{t("animeaux.what")}</Body2>
         <div style={{ display: "flex", gap: 32 }}>
           <div style={{ display: "flex", justifyContent: "center" }}>

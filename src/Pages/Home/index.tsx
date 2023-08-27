@@ -5,9 +5,14 @@ import { Card } from "src/components/Card"
 import { LinkTarget } from "src/components/Link"
 import { Body3, Title2 } from "src/components/Typo"
 import { useStyles } from "./Styles"
-import animeaux from "/assets/animeaux.png"
-import gazou from "/assets/gazou.jpeg"
-import rick from "/assets/rick.svg"
+import animeaux from "/assets/animeaux/animeaux.png"
+import gazou from "/assets/gazou/gazou.jpeg"
+import lanetscouade from "/assets/lanetscouade/lanetscouade.png"
+import mooflix from "/assets/mooflix/mooflix.jpeg"
+import rick from "/assets/rick/rick.svg"
+import switchy from "/assets/switchy/switchy.jpeg"
+import tastyworld from "/assets/tastyworld/tastyworld.png"
+import weather from "/assets/weather/weather.png"
 
 export const Home = () => {
   const classes = useStyles()
@@ -16,21 +21,20 @@ export const Home = () => {
 
   return (
     <main className={classes.container}>
-      <Box sx={{ p: 2 }}></Box>
+      <Box sx={{ p: 2 }} />
       <Body3>Hello ✧</Body3>
-      <Box sx={{ p: 2 }}></Box>
+      <Box sx={{ p: 2 }} />
       <Title2>
         Edwina is a Frontend Developer based in Paris, currently working at{" "}
         <LinkTarget link="https://www.flatsy.fr/" text="Flatsy" />. She build
         some fun projects with her little energy. I hope you find this portfolio
         enjoyable and inspiring :)
       </Title2>
-      <Box sx={{ p: 2 }}></Box>
+      <Box sx={{ p: 2 }} />
       <Divider />
-      <Box sx={{ p: 1 }}></Box>
-      <Box sx={{ p: 1 }}></Box>
+      <Box sx={{ p: 2 }} />
       <Body3>Projects</Body3>
-      <Box sx={{ p: 0.5 }}></Box>
+      <Box sx={{ p: 0.5 }} />
       <Card
         src={animeaux}
         title="01 | Animeaux"
@@ -40,12 +44,12 @@ export const Home = () => {
       />
       <Box sx={{ p: 4 }}></Box>
       <Card
-        src={rick}
-        title="02 | Rick & Morty"
-        subTitle="Characters"
-        link="animeaux"
+        src={lanetscouade}
+        title="02 | La Netscouade"
+        subTitle="Digital agency"
+        link="lanetscouade"
       />
-      <Box sx={{ p: 4 }}></Box>
+      <Box sx={{ p: 4 }} />
       <Card
         src={gazou}
         title="03 | Gazou"
@@ -53,19 +57,50 @@ export const Home = () => {
         link="gazou"
       />
       {!seeMore ? (
-        <Button onClick={() => setSeeMore(true)}>{t("home.see_more")}</Button>
+        <>
+          <Box sx={{ p: 2 }} />
+          <Button onClick={() => setSeeMore(true)}>{t("home.see_more")}</Button>
+        </>
       ) : (
         <>
-          <Box sx={{ p: 4 }}></Box>
+          <Box sx={{ p: 4 }} />
           <Card
             src={rick}
-            title="02 | Rick & Morty"
+            title="04 | Rick & Morty"
             subTitle="Characters"
+            link="rick"
+          />
+          <Box sx={{ p: 4 }} />
+          <Card
+            src={mooflix}
+            title="05 | Mooflix"
+            subTitle="Allocine bis"
+            link="animeaux"
+          />
+          <Box sx={{ p: 4 }} />
+          <Card
+            src={switchy}
+            title="06 | Switchy"
+            subTitle="Games"
+            link="animeaux"
+          />
+          <Box sx={{ p: 4 }} />
+          <Card
+            src={tastyworld}
+            title="07 | Tastyworld"
+            subTitle="Games"
+            link="animeaux"
+          />
+          <Box sx={{ p: 4 }} />
+          <Card
+            src={weather}
+            title="08 | Weather"
+            subTitle="Cloudy"
             link="animeaux"
           />
         </>
       )}
-      <Box sx={{ p: 4 }}></Box>
+      <Box sx={{ p: 4 }} />
     </main>
   )
 }

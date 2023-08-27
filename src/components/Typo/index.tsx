@@ -68,3 +68,8 @@ export const Body4: React.FC<TypoProps> = ({ children, style }) => {
     </h1>
   )
 }
+
+export const SubBody: React.FC<TypoProps> = ({ children }) => {
+  const classes = useStyles()
+  return <span className={classes.subbody}>{children}</span>
+}
