@@ -1,11 +1,9 @@
-import { Theme } from "@mui/material"
 import { makeStyles } from "@mui/styles"
 
-export const useStyles = makeStyles((theme: Theme) => ({
-  title: {
-    letterSpacing: 1,
-    fontSize: 12,
-    color: theme.palette.grey[500],
-    textTransform: "uppercase",
+export const useStyles = makeStyles(() => ({
+  card: {
+    display: "flex",
+    overflowX: "auto",
+    gap: 24,
   },
 }))

@@ -18,14 +18,19 @@ export const Link: React.FC<LinkProps> = ({ router, text }) => {
   )
 }
 
-export const LinkTarget: React.FC<LinkProps> = ({ link, text, noBlank }) => {
+export const LinkTarget: React.FC<LinkProps> = ({
+  link,
+  text,
+  noBlank,
+  color = "black",
+}) => {
   return (
     <LinkMui
       href={link}
       target={noBlank ? "" : "_blank"}
       underline="hover"
       rel="noopener"
-      color="black"
+      color={color}
       style={{ letterSpacing: 0.5 }}
     >
       {text}

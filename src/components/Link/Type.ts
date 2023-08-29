@@ -3,4 +3,5 @@ export interface LinkProps {
   link?: string
   text: string
   noBlank?: boolean
+  color?: string
 }

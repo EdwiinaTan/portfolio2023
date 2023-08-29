@@ -9,12 +9,18 @@
     "repository": "Repository",
     "translation_image": "*Adopt! Find your dream partner and give him a second chance.",
     "presentation": "Presentation",
-    "presPara1": "The 'Animeaux' association is a non-profit organization that works for the protection and well-being of animals located in Meaux, France. In particular, it offers adoption for abandoned, stray or mistreated animals and veterinary care programs.",
+    "presPara1": "The 'Animeaux' association is a non-profit organization that works for the protection and well-being of animals located in Meaux, France. It offers adoption for abandoned, stray or mistreated animals and veterinary care programs.",
     "presPara2": "The association also carries out interventions that can take place in private homes, public places or other places where animals need help. The association's volunteers are trained to intervene in these situations and they often work in collaboration with the local authorities to guarantee the safety of the animals and all those involved.",
     "presPara3": "Volunteers depend primarily on donations and contributions to fund all of its activities. Donations can be made online through their website. The association also organizes fundraising events throughout the year and uses social media to raise awareness of their cause and to interact with their community of volunteers and supporters.",
-    "purpose": "Purpose", 
+    "purpose": "Purpose",
+    "benchmark": "Benchmark",
     "purpose1": "The 'Animeaux' mobile application is a back office that aims to simplify and optimize the management of rescued animals and their availability for accommodation for a foster family while the animal is being adopted. The application is therefore specially developed for the volunteers of the association, allowing them to easily access information on animals and foster families from their mobile phone, whether on Android or iOS. Thanks to this application, volunteers will be able to add an animal during an intervention, monitor information on each animal in real time, such as their state of health, their behavior, their diet, etc. They will also be able to update the information relating to each animal, such as their status to be housed and much more. Volunteers will be able to track requests to become foster families in real time, including their availability and location, as well as current foster family information, including pets housed and information about them. This will allow volunteers to efficiently manage the flow of applications to be foster families, to communicate with them quickly and to respond to the needs of the animals in a suitable way. The statistics will also be displayed in the application allowing volunteers to know the types of animals saved, the reasons for their abandonment, or the percentage of host families who have a garden, who have a car, etc. This can help the association to target the problems and set up awareness or prevention campaigns to avoid future situations of abandonment. Finally, statistics on foster families can help volunteers adapt their communication with potential candidates and find suitable accommodation solutions for each animal.",
-    "what": "What the asociation does?"
+    "what": "What the asociation does?",
+    "goal": "What is the purpose of this app?",
+    "goal1": "A back office for volunteers to simplify and optimize the management of rescued animals and their availability for accommodation for a foster family while the animal is being adopted.",
+    "goal2": "Volunteers will be able to add an animal during an intervention, monitor information on each animal in real time, such as their state of health, their behavior, their diet, etc.",
+    "goal3": "Track requests to become a foster family in real time, including their availability and location, as well as information to current foster families about the animals being housed there.",
+    "goal4": "Statistics will also be displayed in the application allowing volunteers to know the reasons for animal abandonment and adapt their communication on social networks."
   },
   "lanet": {
     "info_image": "*One of their projects",
@@ -33,6 +39,7 @@
     "mockups": "Mockups",
     "icons": "Icons",
     "ai": "AI",
-    "illustrations": "Illustrations"
+    "illustrations": "Illustrations",
+    "intro": "There are a lot of resources on the Internet, so I wanted to bring together all the websites that I find useful and relevant. I hope this will help you."
   }
 }

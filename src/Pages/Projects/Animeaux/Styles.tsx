@@ -8,4 +8,9 @@ export const useStyles = makeStyles<Theme>((theme: Theme) => ({
     color: theme.palette.grey[500],
     textTransform: "uppercase",
   },
+  item: {
+    border: `1px solid ${theme.palette.grey[300]}`,
+    padding: 8,
+    borderRadius: 8,
+  },
 }))
