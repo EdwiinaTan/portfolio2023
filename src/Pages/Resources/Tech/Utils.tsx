@@ -1,16 +1,11 @@
-import anthony from "/assets/tech/anthony.png"
-import blush from "/assets/tech/blush.png"
+import calltoinspiration from "/assets/tech/calltoinspiration.png"
 import cleanup from "/assets/tech/cleanup.png"
 import clipdrop from "/assets/tech/clipdrop.png"
-import icon8 from "/assets/tech/icon8.png"
-import iconer from "/assets/tech/iconer.png"
-import manypixels from "/assets/tech/manypixels.png"
+import pagecollective from "/assets/tech/pagecollective.png"
+import pageflows from "/assets/tech/pageflows.png"
 import perplexity from "/assets/tech/perplexity.png"
-import pixelTrue from "/assets/tech/pixeltrue.png"
 import relume from "/assets/tech/relume.png"
-import shots from "/assets/tech/shots.png"
-import svgrepo from "/assets/tech/svgrepo.png"
-import undraw from "/assets/tech/undraw.png"
+import undesign from "/assets/tech/undesign.png"
 import vectorizer from "/assets/tech/vectorizer.png"
 
 export const techAIArray = [
@@ -46,64 +41,55 @@ export const techAIArray = [
   },
 ]
 
-export const techMockupArray = [
+export const techTemplatesArray = [
   {
-    img: pixelTrue,
-    title: "Pixeltrue",
-    subtitle: "Free mockups with 4 devices with edit",
-    link: "https://mockups.pixeltrue.com/",
+    img: calltoinspiration,
+    title: "Call to inspiration",
+    subtitle: "By component",
+    link: "https://calltoinspiration.com/",
   },
   {
-    img: anthony,
-    title: "Anthonyboyd",
-    subtitle: "Mockups with 7 types, just download it",
-    link: "https://www.anthonyboyd.graphics/mockups-collection/",
+    img: pageflows,
+    title: "Page flows",
+    subtitle: "Templates flow",
+    link: "https://pageflows.com/",
   },
   {
-    img: shots,
-    title: "Shots",
-    subtitle: "Create your own custom mockup",
-    link: "https://shots.so/",
-  },
-]
-
-export const techIconArray = [
-  {
-    img: svgrepo,
-    title: "SvgRepo",
-    subtitle: "+500.000 svg icons",
-    link: "https://www.svgrepo.com/",
+    img: pagecollective,
+    title: "Page collective",
+    subtitle: "Templates page",
+    link: "https://pagecollective.com/",
   },
   {
-    img: iconer,
-    title: "Iconer",
-    subtitle: "Icon grouped by lib",
-    link: "https://iconer.app/",
+    img: undesign,
+    title: "Undesign",
+    subtitle: "List of template website",
+    link: "https://undesign.learn.uno/templates/",
   },
 ]
 
-export const techIllusArray = [
+export const techAppArray = [
   {
-    img: undraw,
-    title: "Undraw",
+    img: calltoinspiration,
+    title: "Airtable",
     subtitle: "Color editable",
     link: "https://undraw.co/illustrations",
   },
   {
-    img: manypixels,
-    title: "Manypixels",
+    img: calltoinspiration,
+    title: "Insomnia",
     subtitle: "Colorful illustration",
-    link: "https://www.svgrepo.com/",
+    link: "https://www.manypixels.co/gallery",
   },
   {
-    img: icon8,
-    title: "Icon8 illustration",
+    img: calltoinspiration,
+    title: "Mockoon",
     subtitle: "Different style",
     link: "https://icons8.com/illustrations/styles",
   },
   {
-    img: blush,
-    title: "Blush",
+    img: calltoinspiration,
+    title: "Responsively",
     subtitle: "Cartoon charaters",
     link: "https://blush.design/",
   },

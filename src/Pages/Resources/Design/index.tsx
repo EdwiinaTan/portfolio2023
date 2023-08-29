@@ -5,7 +5,13 @@ import { LayoutPage } from "src/components/Layout"
 import { SubBody, Title2 } from "src/components/Typo"
 import { TechType } from "../Tech/Type"
 import { useStyles } from "./Styles"
-import { designLogoArray } from "./Utils"
+import {
+  designFontArray,
+  designIconArray,
+  designIllusArray,
+  designLogoArray,
+  designMockupArray,
+} from "./Utils"
 
 export const Design = () => {
   const { t } = useTranslation()
@@ -30,10 +36,20 @@ export const Design = () => {
       <Box sx={{ p: 2 }}></Box>
       <Divider />
       <Box sx={{ p: 1 }}></Box>
+      <SubBody>{t("design.font")}</SubBody>
+      <div className={classes.card}>{renderTechCard(designFontArray)}</div>
+      <Box sx={{ p: 3 }}></Box>
+      <SubBody>{t("design.icons")}</SubBody>
+      <div className={classes.card}>{renderTechCard(designIconArray)}</div>
+      <Box sx={{ p: 3 }}></Box>
+      <SubBody>{t("design.illustrations")}</SubBody>
+      <div className={classes.card}>{renderTechCard(designIllusArray)}</div>
+      <Box sx={{ p: 3 }}></Box>
       <SubBody>{t("design.logo")}</SubBody>
       <div className={classes.card}>{renderTechCard(designLogoArray)}</div>
       <Box sx={{ p: 3 }}></Box>
-      <SubBody>{t("design.font")}</SubBody>
+      <SubBody>{t("design.mockups")}</SubBody>
+      <div className={classes.card}>{renderTechCard(designMockupArray)}</div>
     </LayoutPage>
   )
 }

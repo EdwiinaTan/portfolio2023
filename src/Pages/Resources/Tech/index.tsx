@@ -5,12 +5,7 @@ import { LayoutPage } from "src/components/Layout"
 import { SubBody, Title2 } from "src/components/Typo"
 import { useStyles } from "./Styles"
 import { TechType } from "./Type"
-import {
-  techAIArray,
-  techIconArray,
-  techIllusArray,
-  techMockupArray,
-} from "./Utils"
+import { techAIArray, techAppArray, techTemplatesArray } from "./Utils"
 
 export const Tech = () => {
   const { t } = useTranslation()
@@ -38,14 +33,12 @@ export const Tech = () => {
       <SubBody>{t("tech.ai")}</SubBody>
       <div className={classes.card}>{renderTechCard(techAIArray)}</div>
       <Box sx={{ p: 3 }}></Box>
-      <SubBody>{t("tech.illustrations")}</SubBody>
-      <div className={classes.card}>{renderTechCard(techIllusArray)}</div>
+      <SubBody>{t("tech.templates")}</SubBody>
+      <div className={classes.card}>{renderTechCard(techTemplatesArray)}</div>
       <Box sx={{ p: 3 }}></Box>
-      <SubBody>{t("tech.icons")}</SubBody>
-      <div className={classes.card}>{renderTechCard(techIconArray)}</div>
+      <SubBody>{t("tech.applications")}</SubBody>
+      <div className={classes.card}>{renderTechCard(techAppArray)}</div>
       <Box sx={{ p: 3 }}></Box>
-      <SubBody>{t("tech.mockups")}</SubBody>
-      <div className={classes.card}>{renderTechCard(techMockupArray)}</div>
     </LayoutPage>
   )
 }

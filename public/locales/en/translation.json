@@ -36,14 +36,17 @@
     "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
   },
   "tech": {
-    "mockups": "Mockups",
-    "icons": "Icons",
     "ai": "AI",
-    "illustrations": "Illustrations",
-    "intro": "There are a lot of resources on the Internet, so I wanted to bring together all the websites that I find useful and relevant. I hope this will help you."
+    "intro": "There are a lot of resources on the Internet, so I wanted to bring together all the websites that I find useful and relevant. I hope this will help you.",
+    "templates": "Templates",
+    "applications": "Applications"
   },
   "design": {
     "intro": "Kinda hard to find a style so here i regroup all of it",
-    "logo": "Logo"
+    "logo": "Logo",
+    "font": "Font",
+    "mockups": "Mockups",
+    "illustrations": "Illustrations",
+    "icons": "Icons"
   }
 }
