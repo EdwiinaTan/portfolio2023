@@ -1,6 +1,7 @@
 import { Box, Button, Divider } from "@mui/material"
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
+// import { useAirtableAnimal } from "src/airtable"
 import { Card } from "src/components/Card"
 import { LinkTarget } from "src/components/Link"
 import { Body3, Title2 } from "src/components/Typo"
@@ -18,9 +19,19 @@ export const Home = () => {
   const classes = useStyles()
   const [seeMore, setSeeMore] = useState<boolean>(false)
   const { t } = useTranslation()
+  // const { data, loading } = useAirtableAnimal()
 
   return (
     <main className={classes.container}>
+      {/* {loading ? (
+        <p>loading</p>
+      ) : (
+        data.map((record: AirtableRecord) => (
+          <ul>
+            <li key={record.id}>{record.fields.title}</li>
+          </ul>
+        ))
+      )} */}
       <Box sx={{ p: 2 }} />
       <Body3>Hello ✧</Body3>
       <Box sx={{ p: 2 }} />
@@ -53,7 +64,7 @@ export const Home = () => {
       <Card
         src={gazou}
         title="03 | Gazou"
-        subTitle="Looking for gas"
+        subTitle={t("gazou.gas_stations")}
         link="gazou"
       />
       {!seeMore ? (
@@ -88,7 +99,7 @@ export const Home = () => {
           <Card
             src={tastyworld}
             title="07 | Tastyworld"
-            subTitle="Games"
+            subTitle="Miam"
             link="animeaux"
           />
           <Box sx={{ p: 4 }} />

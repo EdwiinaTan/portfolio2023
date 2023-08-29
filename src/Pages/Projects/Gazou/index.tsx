@@ -22,7 +22,7 @@ export const Gazou = () => {
       <Box sx={{ p: 2 }}></Box>
       <div style={{ width: "70%", margin: "auto" }}>
         <Body2 style={{ color: theme.palette.grey[600] }}>03 | Gazou</Body2>
-        <Body3>{t("gazou.looking_gas")}</Body3>
+        <Body3>{t("gazou.gas_stations")}</Body3>
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 1 }}></Box>

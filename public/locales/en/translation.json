@@ -23,7 +23,7 @@
     "why": "Le but de l'hackaton était de faire la refonte et l'identité du site"
   },
   "gazou": {
-    "looking_gas": "Looking for gas",
+    "gas_stations": "Gas stations",
     "intro": "We had to create a mobile project in pairs at school. During this period in 2022, there was a big increase in the price of gasoline caused by the war in Ukraine. This had led to long queues and fuel shortages in some service stations. We have therefore chosen to create an application that displays nearby gas stations according to their availability and the location of the user."
   },
   "rick": {
@@ -32,6 +32,7 @@
   "tech": {
     "mockups": "Mockups",
     "icons": "Icons",
-    "ai": "AI"
+    "ai": "AI",
+    "illustrations": "Illustrations"
   }
 }
