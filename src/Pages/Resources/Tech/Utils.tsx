@@ -1,10 +1,14 @@
+import airtable from "/assets/tech/airtable.png"
 import calltoinspiration from "/assets/tech/calltoinspiration.png"
 import cleanup from "/assets/tech/cleanup.png"
 import clipdrop from "/assets/tech/clipdrop.png"
+import insomnia from "/assets/tech/insomnia.png"
+import mockoon from "/assets/tech/mockoon.png"
 import pagecollective from "/assets/tech/pagecollective.png"
 import pageflows from "/assets/tech/pageflows.png"
 import perplexity from "/assets/tech/perplexity.png"
 import relume from "/assets/tech/relume.png"
+import responsively from "/assets/tech/responsively.png"
 import undesign from "/assets/tech/undesign.png"
 import vectorizer from "/assets/tech/vectorizer.png"
 
@@ -70,27 +74,27 @@ export const techTemplatesArray = [
 
 export const techAppArray = [
   {
-    img: calltoinspiration,
+    img: airtable,
     title: "Airtable",
-    subtitle: "Color editable",
-    link: "https://undraw.co/illustrations",
+    subtitle: "No code database",
+    link: "https://www.airtable.com/",
   },
   {
-    img: calltoinspiration,
+    img: insomnia,
     title: "Insomnia",
-    subtitle: "Colorful illustration",
-    link: "https://www.manypixels.co/gallery",
+    subtitle: "Postman bis",
+    link: "https://insomnia.rest/",
   },
   {
-    img: calltoinspiration,
+    img: mockoon,
     title: "Mockoon",
     subtitle: "Different style",
-    link: "https://icons8.com/illustrations/styles",
+    link: "https://mockoon.com/",
   },
   {
-    img: calltoinspiration,
+    img: responsively,
     title: "Responsively",
     subtitle: "Cartoon charaters",
-    link: "https://blush.design/",
+    link: "https://responsively.app/",
   },
 ]
