@@ -10,10 +10,17 @@ export const Menu = () => {
   const navigate = useNavigate()
   const classes = useStyles()
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }
+
   return (
     <nav className={classes.container}>
       <div className={classes.block}>
-        <LinkDom to="">
+        <LinkDom to="" onClick={scrollToTop}>
           <img src={logo} width={100} height={50} alt="Logo portfolio Edwina" />
         </LinkDom>
         <Link router="about" text="About" />

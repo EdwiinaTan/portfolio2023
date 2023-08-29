@@ -114,7 +114,7 @@ export const Animeaux = () => {
             </div>
           </Grid>
         </Grid>
-        <Box sx={{ p: 2 }}></Box>
+        <Box sx={{ p: 4 }}></Box>
         <SubBody>{t("animeaux.benchmark")}</SubBody>
         <Box sx={{ p: 2 }}></Box>
       </div>

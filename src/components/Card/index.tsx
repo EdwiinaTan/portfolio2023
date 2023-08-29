@@ -12,9 +12,14 @@ export const Card: React.FC<CardProps> = ({
   link,
 }) => {
   const classes = useStyles()
+  // const [loading, setLoading] = useState(true)
 
   return (
     <article className={classes.project}>
+      {/* <div style={{ display: loading ? "block" : "none" }}>
+        <p>loading</p>
+      </div>
+      <div style={{ display: loading ? "none" : "block" }}> */}
       <LinkDom to={link}>
         <section
           style={{
@@ -34,9 +39,11 @@ export const Card: React.FC<CardProps> = ({
               borderRadius: 8,
               objectFit: objectFit,
             }}
-          />{" "}
+            // onLoad={() => setLoading(false)}
+          />
         </section>
       </LinkDom>
+      {/* </div> */}
       <section>
         <Body2 style={{ color: theme.palette.grey[700] }}>{title}</Body2>
         <Body3 style={{ color: theme.palette.grey[500] }}>{subTitle}</Body3>
