@@ -38,14 +38,14 @@ export const Tech = () => {
       <SubBody>{t("tech.ai")}</SubBody>
       <div className={classes.card}>{renderTechCard(techAIArray)}</div>
       <Box sx={{ p: 3 }}></Box>
-      <SubBody>{t("tech.mockups")}</SubBody>
-      <div className={classes.card}>{renderTechCard(techMockupArray)}</div>
+      <SubBody>{t("tech.illustrations")}</SubBody>
+      <div className={classes.card}>{renderTechCard(techIllusArray)}</div>
       <Box sx={{ p: 3 }}></Box>
       <SubBody>{t("tech.icons")}</SubBody>
       <div className={classes.card}>{renderTechCard(techIconArray)}</div>
       <Box sx={{ p: 3 }}></Box>
-      <SubBody>{t("tech.illustrations")}</SubBody>
-      <div className={classes.card}>{renderTechCard(techIllusArray)}</div>
+      <SubBody>{t("tech.mockups")}</SubBody>
+      <div className={classes.card}>{renderTechCard(techMockupArray)}</div>
     </LayoutPage>
   )
 }

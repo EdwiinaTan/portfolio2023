@@ -1,6 +1,7 @@
 import anthony from "/assets/tech/anthony.png"
 import blush from "/assets/tech/blush.png"
 import cleanup from "/assets/tech/cleanup.png"
+import clipdrop from "/assets/tech/clipdrop.png"
 import icon8 from "/assets/tech/icon8.png"
 import iconer from "/assets/tech/iconer.png"
 import manypixels from "/assets/tech/manypixels.png"
@@ -20,9 +21,15 @@ export const techAIArray = [
     link: "https://www.svgrepo.com/",
   },
   {
+    img: clipdrop,
+    title: "Clipdrop",
+    subtitle: "All in one",
+    link: "https://clipdrop.co/fr",
+  },
+  {
     img: cleanup,
     title: "Cleanup",
-    subtitle: "Remove it easily",
+    subtitle: "Remove easily everything",
     link: "https://cleanup.pictures/",
   },
   {
@@ -72,12 +79,6 @@ export const techIconArray = [
     title: "Iconer",
     subtitle: "Icon grouped by lib",
     link: "https://iconer.app/",
-  },
-  {
-    img: shots,
-    title: "Shots",
-    subtitle: "Create your own custom mockup",
-    link: "https://shots.so/",
   },
 ]
 

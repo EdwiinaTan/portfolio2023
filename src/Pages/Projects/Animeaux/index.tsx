@@ -90,7 +90,7 @@ export const Animeaux = () => {
             <Box sx={{ p: 2 }}></Box>
           </div>
         </div>
-        <Box sx={{ p: 1 }}></Box>
+        <Box sx={{ p: 3 }}></Box>
         <Body2>{t("animeaux.goal")}</Body2>
         <Box sx={{ p: 1 }}></Box>
         <Grid
