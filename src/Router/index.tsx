@@ -9,6 +9,8 @@ import { Lanetscouade } from "src/pages/Projects/Lanetscouade"
 import { Rick } from "src/pages/Projects/Rick"
 import { Design } from "src/pages/Resources/Design"
 import { Tech } from "src/pages/Resources/Tech"
+import { Draw } from "src/pages/Sketch/Draw"
+import { Paint } from "src/pages/Sketch/Paint"
 
 export const router = createBrowserRouter([
   {
@@ -36,11 +38,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/paint",
-        element: <Cv />,
+        element: <Paint />,
       },
       {
         path: "/draw",
-        element: <Cv />,
+        element: <Draw />,
       },
       {
         path: "/shop",

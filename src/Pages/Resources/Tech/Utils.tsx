@@ -3,12 +3,15 @@ import calltoinspiration from "/assets/tech/calltoinspiration.png"
 import cleanup from "/assets/tech/cleanup.png"
 import clipdrop from "/assets/tech/clipdrop.png"
 import insomnia from "/assets/tech/insomnia.png"
+import mobbin from "/assets/tech/mobbin.png"
 import mockoon from "/assets/tech/mockoon.png"
 import pagecollective from "/assets/tech/pagecollective.png"
 import pageflows from "/assets/tech/pageflows.png"
 import perplexity from "/assets/tech/perplexity.png"
+import pixelfika from "/assets/tech/pixelfika.png"
 import relume from "/assets/tech/relume.png"
 import responsively from "/assets/tech/responsively.png"
+import sheety from "/assets/tech/sheety.png"
 import undesign from "/assets/tech/undesign.png"
 import vectorizer from "/assets/tech/vectorizer.png"
 
@@ -53,6 +56,18 @@ export const techTemplatesArray = [
     link: "https://calltoinspiration.com/",
   },
   {
+    img: pixelfika,
+    title: "Pixelfika",
+    subtitle: "Some cool website",
+    link: "https://pixelfika.com/pixels",
+  },
+  {
+    img: mobbin,
+    title: "Mobbin",
+    subtitle: "Template for ios / android / web",
+    link: "https://mobbin.com/browse/ios/apps",
+  },
+  {
     img: pageflows,
     title: "Page flows",
     subtitle: "Templates flow",
@@ -86,15 +101,21 @@ export const techAppArray = [
     link: "https://insomnia.rest/",
   },
   {
+    img: sheety,
+    title: "Sheety",
+    subtitle: "Create api with sheets",
+    link: "https://mockoon.com/",
+  },
+  {
     img: mockoon,
     title: "Mockoon",
-    subtitle: "Different style",
+    subtitle: "Mock api",
     link: "https://mockoon.com/",
   },
   {
     img: responsively,
     title: "Responsively",
-    subtitle: "Cartoon charaters",
+    subtitle: "Responsive on all devine on live",
     link: "https://responsively.app/",
   },
 ]

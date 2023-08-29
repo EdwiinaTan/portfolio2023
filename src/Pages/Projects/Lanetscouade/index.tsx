@@ -1,7 +1,7 @@
 import { Box, Divider } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
-import { LinkTarget } from "src/components/Link"
+import { LinkProject } from "src/components/Link"
 import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
 import { theme } from "src/theme"
 import banner from "/assets/lanetscouade/banner.png"
@@ -47,17 +47,14 @@ export const Lanetscouade = () => {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Body3 style={{ color: "#1D1D1F" }}>Project</Body3>
-            <LinkTarget
-              link="https://gitlab.com/Yutsu/gazou"
+            <LinkProject
+              link="https://lanetscouade.vercel.app/"
+              text="Website"
+            />
+            <LinkProject
+              link="https://gitlab.com/EliottR/lanetscouade"
               text="Repository"
             />
-            <LinkDom
-              to="https://lanetscouade.vercel.app/"
-              target="_blank"
-              rel="noopener"
-            >
-              Website
-            </LinkDom>
           </div>
           <div>
             <Body3 style={{ color: "#1D1D1F" }}>Timeline</Body3>

@@ -16,5 +16,13 @@
     "mockups": "Mockups",
     "icons": "Icones",
     "ai": "IA"
+  },
+  "design": {
+    "intro": "Trouver l'inspiration pour le design peut parfois être difficile ou complexe. J'ai donc compilé une liste de ressources pour affiner la conception d'un site",
+    "logo": "Logo",
+    "fonts": "Fonts",
+    "mockups": "Mockups",
+    "illustrations": "Illustrations",
+    "icons": "Icons"
   }
 }

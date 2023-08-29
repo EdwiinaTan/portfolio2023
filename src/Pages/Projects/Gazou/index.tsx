@@ -1,7 +1,7 @@
 import { Box, Divider } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
-import { LinkTarget } from "src/components/Link"
+import { LinkProject } from "src/components/Link"
 import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
 import { theme } from "src/theme"
 import banner from "/assets/gazou/banner.svg"
@@ -44,7 +44,7 @@ export const Gazou = () => {
           </div>
           <div>
             <Body3 style={{ color: "#1D1D1F" }}>Project</Body3>
-            <LinkTarget
+            <LinkProject
               link="https://gitlab.com/Yutsu/gazou"
               text="Repository"
             />

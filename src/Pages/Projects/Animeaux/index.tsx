@@ -1,6 +1,7 @@
-import { Box, Divider, Grid, Link as LinkMui } from "@mui/material"
+import { Box, Divider, Grid } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
+import { LinkProject } from "src/components/Link"
 import { Body2, Body3, Body4, SubBody } from "src/components/Typo"
 import { theme } from "src/theme"
 import { useStyles } from "./Styles"
@@ -49,16 +50,10 @@ export const Animeaux = () => {
           </div>
           <div>
             <Body3 style={{ color: "#1D1D1F" }}>Project</Body3>
-            <LinkMui
-              href="https://github.com/EdwiinaTan/animeaux"
-              target="_blank"
-              underline="hover"
-              rel="noopener"
-              color={theme.palette.grey[700]}
-              style={{ fontSize: 14 }}
-            >
-              Repository
-            </LinkMui>
+            <LinkProject
+              link="https://github.com/EdwiinaTan/animeaux"
+              text="Repository"
+            />
           </div>
           <div>
             <Body3 style={{ color: "#1D1D1F" }}>Timeline</Body3>
