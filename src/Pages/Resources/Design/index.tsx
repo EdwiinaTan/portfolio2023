@@ -2,7 +2,7 @@ import { Box, Divider } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { CardTech } from "src/components/CardTech"
 import { LayoutPage } from "src/components/Layout"
-import { SubBody, Title2 } from "src/components/Typo"
+import { Body3, SubBody, Title2 } from "src/components/Typo"
 import { TechType } from "../Tech/Type"
 import { useStyles } from "./Styles"
 import {
@@ -32,6 +32,8 @@ export const Design = () => {
 
   return (
     <LayoutPage>
+      <Body3>Design ⌖</Body3>
+      <Box sx={{ p: 2 }} />
       <Title2>{t("design.intro")}</Title2>
       <Box sx={{ p: 2 }}></Box>
       <Divider />
