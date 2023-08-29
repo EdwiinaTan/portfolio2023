@@ -28,11 +28,11 @@ export const Menu = () => {
       </div>
       <Divider variant="fullWidth" />
       <div className={classes.block}>
-        <SubBody>RESOURCES</SubBody>
+        <SubBody>Resources</SubBody>
         <Link router="tech" text="Tech" />
         <Link router="design" text="Design" />
         <Box sx={{ p: 1 }}></Box>
-        <SubBody>SKETCH</SubBody>
+        <SubBody>Art</SubBody>
         <Link router="paint" text="Paint" />
         <Link router="draw" text="Draw" />
         <Box sx={{ p: 1 }}></Box>
@@ -42,7 +42,7 @@ export const Menu = () => {
       </div>
       <Divider variant="fullWidth" />
       <div className={classes.block}>
-        <SubBody>CONTACT</SubBody>
+        <SubBody>Contact</SubBody>
         <LinkTarget link="mailto:edwina.tan77@gmail.com" text="Mail" noBlank />
         <LinkTarget link="https://github.com/EdwiinaTan" text="Github" />
         <LinkTarget
