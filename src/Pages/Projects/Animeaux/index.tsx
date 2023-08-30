@@ -2,6 +2,7 @@ import { Box, Divider, Grid } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
 import { LinkProject } from "src/components/Link"
+import { SpaceDivider } from "src/components/SpaceDivider"
 import { Body2, Body3, Body4, SubBody } from "src/components/Typo"
 import { theme } from "src/theme"
 import { useStyles } from "./Styles"
@@ -60,9 +61,7 @@ export const Animeaux = () => {
             <Body4>November 2022 - June 2023</Body4>
           </div>
         </section>
-        <Box sx={{ p: 2 }}></Box>
-        <Divider />
-        <Box sx={{ p: 2 }}></Box>
+        <SpaceDivider />
         <SubBody>{t("animeaux.presentation")}</SubBody>
         <Body2>{t("animeaux.what")}</Body2>
         <div style={{ display: "flex", gap: 32 }}>
@@ -86,6 +85,7 @@ export const Animeaux = () => {
           </div>
         </div>
         <Box sx={{ p: 3 }}></Box>
+        <Body2>{t("animeaux.problem")}</Body2>
         <Body2>{t("animeaux.goal")}</Body2>
         <Box sx={{ p: 1 }}></Box>
         <Grid
@@ -114,9 +114,51 @@ export const Animeaux = () => {
             </div>
           </Grid>
         </Grid>
-        <Box sx={{ p: 4 }}></Box>
-        <SubBody>{t("animeaux.benchmark")}</SubBody>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.compilation")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <LinkProject link="https://www.la-spa.fr/" text="SPA" />
+        <Body4>{t("animeaux.benchmark1")}</Body4>
         <Box sx={{ p: 2 }}></Box>
+        <LinkProject
+          link="https://www.30millionsdamis.fr/"
+          text="La fondation 30 Millions d'Amis"
+        />
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <Box sx={{ p: 2 }}></Box>
+        <LinkProject
+          link="https://www.30millionsdamis.fr/"
+          text="L'association Owca"
+        />
+        <Body4>{t("animeaux.benchmark3")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.features")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.technical_specification")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.persona")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.low_fidelity_prototype")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.critic_session")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.hifi_prototype")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <SpaceDivider />
+        <SubBody>{t("animeaux.what_i_learn_from_this")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.benchmark2")}</Body4>
       </div>
     </article>
   )

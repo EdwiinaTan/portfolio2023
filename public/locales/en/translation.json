@@ -20,7 +20,13 @@
     "goal1": "A back office for volunteers to simplify and optimize the management of rescued animals and their availability for accommodation for a foster family while the animal is being adopted.",
     "goal2": "Volunteers will be able to add an animal during an intervention, monitor information on each animal in real time, such as their state of health, their behavior, their diet, etc.",
     "goal3": "Track requests to become a foster family in real time, including their availability and location, as well as information to current foster families about the animals being housed there.",
-    "goal4": "Statistics will also be displayed in the application allowing volunteers to know the reasons for animal abandonment and adapt their communication on social networks."
+    "goal4": "Statistics will also be displayed in the application allowing volunteers to know the reasons for animal abandonment and adapt their communication on social networks.",
+    "compilation": "Compilation",
+    "persona": "Persona",
+    "problem": "What's the problem?",
+    "benchmark1": "The Animal Protection Society (SPA) is the oldest animal protection society, created in 1845. It collects animals in distress, lost, abandoned and are cared for by a site team following abandonment, exit from the pound, etc. The animals are identified then vaccinated, sterilized, cared for and educated to be offered for adoption.",
+    "benchmark2": "It was created in 1995 and aims to combat all forms of animal suffering and, to do so, employs various means of action: assistance, the fight, education as well as encouragement through prizes and Visa.",
+    "benchmark3": "It is an association committed to animal protection and ecology, which wants to save all animals without distinction of species, race or age and aims to encourage the principles of animal protection as well as natural resources."
   },
   "lanet": {
     "info_image": "*One of their projects",
@@ -37,7 +43,7 @@
   },
   "tech": {
     "ai": "AI",
-    "intro": "There are a lot of resources on the Internet, so I wanted to bring all the websites that I find useful and relevant. I hope this will help you.",
+    "intro": "There are a lot of resources on Internet, so I wanted to bring all the websites that I find useful and relevant. I hope this will help you.",
     "templates": "Inspiration templates",
     "applications": "Applications"
   },

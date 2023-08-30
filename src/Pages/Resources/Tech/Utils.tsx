@@ -115,7 +115,7 @@ export const techAppArray = [
   {
     img: responsively,
     title: "Responsively",
-    subtitle: "Responsive on all devine on live",
+    subtitle: "Responsive on all device",
     link: "https://responsively.app/",
   },
 ]
