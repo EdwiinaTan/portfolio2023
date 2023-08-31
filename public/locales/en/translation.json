@@ -24,12 +24,28 @@
     "compilation": "Compilation",
     "persona": "Persona",
     "problem": "What's the problem?",
+    "problem1": "The web back office is not responsive at all, so she has to use her computer to simply go and check information on an animal, which is quite restrictive.",
+    "problem2": "Information was missing about host families, such as the description of a family, criteria such as whether the person is allergic to cat hair or not, etc.",
+    "problem3": "To become a host family, you must first go through a form to get to know them better and see if they are suitable to become one. And this form is the association that pays 5th/month, or 60th/year. Even if it is not very expensive, it could have been used for food or care.",
     "benchmark1": "The Animal Protection Society (SPA) is the oldest animal protection society, created in 1845. It collects animals in distress, lost, abandoned and are cared for by a site team following abandonment, exit from the pound, etc. The animals are identified then vaccinated, sterilized, cared for and educated to be offered for adoption.",
     "benchmark2": "It was created in 1995 and aims to combat all forms of animal suffering and, to do so, employs various means of action: assistance, the fight, education as well as encouragement through prizes and Visa.",
-    "benchmark3": "It is an association committed to animal protection and ecology, which wants to save all animals without distinction of species, race or age and aims to encourage the principles of animal protection as well as natural resources."
+    "benchmark3": "It is an association committed to animal protection and ecology, which wants to save all animals without distinction of species, race or age and aims to encourage the principles of animal protection as well as natural resources.",
+    "tech_spe": "Technical Specification",
+    "tech_react1": "It is a language that allows you to develop both mobile applications for Android and iOS. This will allow me to reach as many volunteers as possible and ensure that everyone can access it. There is only one source code which allows development on both platforms at the same time and therefore saves considerable time.",
+    "tech_react2": "It is already a language that I have already worked on because in my current company (I am front-end at Flatsy) I already do react and react native for their mobile application 'Flatguide'. So I have some knowledge and I would like to improve my skills more by creating this application made from A to Z. It allowed me to put my knowledge to the benefit of my application, but also to the benefit of the 'Flatguide' application of my business.",
+    "tech_react3": "React Native offers a user experience similar to that of a native application and offers many features and components already built.",
+    "tech_react4": "It has a very large community of active developers with 1.4 million downloads per week and is regularly updated.",
+    "tech_expo1": "Be able to use your smartphone as a simulator and therefore test directly on it. The Xcode simulator is not 100% because it is not a real smartphone, so it is preferable to use your phone to be able to test its application. Changes are also made in real time, meaning any changes are made directly on the phone.",
+    "tech_expo2": "Easily and quickly build the project into an .apk and .ipa file. You must first install the eas-cli, log in with your account and configure the eas.json file so that it can build correctly. However, you should not exceed more than 30 builds per month, which is free, because otherwise you will have to pay.",
+    "tech_expo3": "It also allows you to send the build to the App store very easily and therefore use TestFlight to be able to test directly on your iPhone.",
+    "tech_expo4": "Also offers a multitude of native functionality that makes it easier to develop, such as adding a photo from its library.",
+    "low_fidelity_prototype": "Low fidelity prototype",
+    "critic_session": "Critic session",
+    "hifi_prototype": "Hifi prototype",
+    "what_i_learn": "What I learn"
   },
   "lanet": {
-    "info_image": "*One of their projects",
+    "info_image": "(One of their projects)",
     "digital_agency": "Digital agency",
     "intro": "The last hackathon I participated in brought together different student profiles from the school with the aim of responding to a call for tenders from La netscouade, which was the digital agency of the year 2022. The main clients are corporate and institutional companies.",
     "why": "Le but de l'hackaton était de faire la refonte et l'identité du site"
@@ -56,7 +72,10 @@
     "icons": "Icons"
   },
   "about": {
-    "info": "Info"
+    "info": "Info",
+    "education": "Education",
+    "whats_next": "What's next",
+    "hobbies": "hobbies"
   }
   
 }

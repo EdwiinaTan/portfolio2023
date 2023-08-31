@@ -86,6 +86,13 @@ export const Animeaux = () => {
         </div>
         <Box sx={{ p: 3 }}></Box>
         <Body2>{t("animeaux.problem")}</Body2>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.problem1")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.problem2")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.problem3")}</Body4>
+        <Box sx={{ p: 3 }}></Box>
         <Body2>{t("animeaux.goal")}</Body2>
         <Box sx={{ p: 1 }}></Box>
         <Grid
@@ -117,26 +124,87 @@ export const Animeaux = () => {
         <SpaceDivider />
         <SubBody>{t("animeaux.compilation")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
-        <LinkProject link="https://www.la-spa.fr/" text="SPA" />
+        <LinkProject
+          link="https://www.la-spa.fr/"
+          text="SPA"
+          color={theme.palette.common.black}
+        />
         <Body4>{t("animeaux.benchmark1")}</Body4>
         <Box sx={{ p: 2 }}></Box>
         <LinkProject
           link="https://www.30millionsdamis.fr/"
           text="La fondation 30 Millions d'Amis"
+          color={theme.palette.common.black}
         />
         <Body4>{t("animeaux.benchmark2")}</Body4>
         <Box sx={{ p: 2 }}></Box>
         <LinkProject
           link="https://www.30millionsdamis.fr/"
           text="L'association Owca"
+          color={theme.palette.common.black}
         />
         <Body4>{t("animeaux.benchmark3")}</Body4>
         <SpaceDivider />
-        <SubBody>{t("animeaux.features")}</SubBody>
+        <SubBody>{t("animeaux.tech_spe")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
-        <Body4>{t("animeaux.benchmark2")}</Body4>
-        <SpaceDivider />
-        <SubBody>{t("animeaux.technical_specification")}</SubBody>
+        <LinkProject
+          link="https://reactnative.dev/"
+          text="React Native"
+          color={theme.palette.common.black}
+        />
+        <Box sx={{ p: 0.5 }}></Box>
+        <Grid
+          container
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          <Grid item xs={6}>
+            <div className={classes.item}>
+              <Body4>{t("animeaux.tech_react1")}</Body4>
+            </div>
+          </Grid>
+          <Grid item xs={6}>
+            <div className={classes.item}>
+              <Body4>{t("animeaux.tech_react2")}</Body4>
+            </div>
+          </Grid>
+          <Grid item xs={6}>
+            <div className={classes.item}>
+              <Body4>{t("animeaux.tech_react3")}</Body4>
+            </div>
+          </Grid>
+          <Grid item xs={6}>
+            <div className={classes.item}>
+              <Body4>{t("animeaux.tech_react4")}</Body4>
+            </div>
+          </Grid>
+        </Grid>
+        <Box sx={{ p: 2 }}></Box>
+        <LinkProject
+          link="https://expo.dev/"
+          text="Expo"
+          color={theme.palette.common.black}
+        />
+        <Box sx={{ p: 0.5 }}></Box>
+        <Body4>{t("animeaux.tech_expo1")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.tech_expo2")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.tech_expo3")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.tech_expo4")}</Body4>
+        <Box sx={{ p: 3 }}></Box>
+        <LinkProject
+          link="https://airtable.com/"
+          text="Airtable"
+          color={theme.palette.common.black}
+        />
+        <Box sx={{ p: 2 }}></Box>
+        <LinkProject
+          link="https://aws.amazon.com/fr/s3/"
+          text="AWS - Bucket S3"
+          color={theme.palette.common.black}
+        />
         <Box sx={{ p: 1 }}></Box>
         <Body4>{t("animeaux.benchmark2")}</Body4>
         <SpaceDivider />
@@ -156,7 +224,7 @@ export const Animeaux = () => {
         <Box sx={{ p: 1 }}></Box>
         <Body4>{t("animeaux.benchmark2")}</Body4>
         <SpaceDivider />
-        <SubBody>{t("animeaux.what_i_learn_from_this")}</SubBody>
+        <SubBody>{t("animeaux.what_i_learn")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
         <Body4>{t("animeaux.benchmark2")}</Body4>
       </div>

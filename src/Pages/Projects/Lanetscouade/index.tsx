@@ -2,7 +2,7 @@ import { Box, Divider } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
 import { LinkProject } from "src/components/Link"
-import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
+import { Body2, Body3, Body4, SubBody } from "src/components/Typo"
 import { theme } from "src/theme"
 import banner from "/assets/lanetscouade/banner.png"
 
@@ -64,9 +64,7 @@ export const Lanetscouade = () => {
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
-        <Title2 style={{ textAlign: "center" }}>
-          {t("animeaux.presentation")}
-        </Title2>
+        <SubBody>{t("animeaux.presentation")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
       </div>
     </article>

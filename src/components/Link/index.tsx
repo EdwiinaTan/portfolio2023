@@ -39,7 +39,7 @@ export const LinkTarget: React.FC<LinkProps> = ({
   )
 }
 
-export const LinkProject: React.FC<LinkProps> = ({ link, text }) => {
+export const LinkProject: React.FC<LinkProps> = ({ link, text, ...style }) => {
   return (
     <LinkMui
       href={link}
@@ -47,7 +47,7 @@ export const LinkProject: React.FC<LinkProps> = ({ link, text }) => {
       underline="hover"
       rel="noopener"
       color={theme.palette.grey[700]}
-      style={{ fontSize: 14 }}
+      style={{ fontSize: 14, ...style }}
     >
       {text}
     </LinkMui>
