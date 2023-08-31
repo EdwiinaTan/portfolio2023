@@ -36,9 +36,9 @@ export const Home = () => {
       <Body3>Hello ✧</Body3>
       <Box sx={{ p: 2 }} />
       <Title2>
-        Edwina is a Frontend Developer based in Paris, currently working at{" "}
-        <LinkTarget link="https://www.flatsy.fr/" text="Flatsy" />. She build
-        some fun projects with her little energy. I hope you find this portfolio
+        I'am a Frontend Developer based in Paris, currently working at{" "}
+        <LinkTarget link="https://www.flatsy.fr/" text="Flatsy" />. I build some
+        fun projects with my little energy. I hope you find this portfolio
         enjoyable and inspiring :)
       </Title2>
       <Box sx={{ p: 2 }} />

@@ -4,8 +4,12 @@ import SFProDisplayMedium from "/fonts/SF-Pro-Display-Medium.woff"
 export const theme = createTheme({
   palette: {
     primary: {
-      light: "#B1CEBF",
-      main: "#84a292",
+      light: "#b1ceac",
+      main: "#7E9C8C",
+    },
+    secondary: {
+      light: "#f9eda1",
+      main: "#efd94a",
     },
   },
   typography: {
