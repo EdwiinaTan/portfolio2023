@@ -39,10 +39,15 @@
     "tech_expo2": "Easily and quickly build the project into an .apk and .ipa file. You must first install the eas-cli, log in with your account and configure the eas.json file so that it can build correctly. However, you should not exceed more than 30 builds per month, which is free, because otherwise you will have to pay.",
     "tech_expo3": "It also allows you to send the build to the App store very easily and therefore use TestFlight to be able to test directly on your iPhone.",
     "tech_expo4": "Also offers a multitude of native functionality that makes it easier to develop, such as adding a photo from its library.",
+    "tech_airtable": "As for database management, I chose to use Airtable. It is a very intuitive and easy-to-use cloud platform that allows users to create, share and collaborate on easily customizable tables. It also offers an API generated from tables allowing it to be easily and quickly integrated into my application. The roads being made, this saves time and energy. It is also very flexible and scalable because it is possible to add a new field or a new table, to be able to edit and delete very easily and quickly. With this tool, it is also possible to create a free form, which allows you to retrieve the answers to become a host family. The responses are then added to the “formInscription” table. This is a feature that is free for 1200 responses per month, which is more than enough. In addition to all this, Airtable offers personalized views, meaning it is possible to choose and share the type of view best suited to the data collected (calendar, Kanban, Gantt chart, etc.).",
+    "tech_aws": "For image storage when the volunteer wants to add a photo, it is impossible to send an image directly to Airtable. So I decided to use Amazon Web Service, an Amazon cloud service platform, by creating an S3 Bucket to be able to store the images. This will store the images, create a URL from the image and then send it to Airtable. It is also necessary to properly configure the S3 Bucket and also IAM (Identity and Access Management), namely access policies, the creation of a user via Aws programmatic access, etc. so that any volunteer can add or delete an image without prior condition.",
     "low_fidelity_prototype": "Low fidelity prototype",
     "critic_session": "Critic session",
     "hifi_prototype": "Hifi prototype",
-    "what_i_learn": "What I learn"
+    "learn": "What I learn",
+    "learn1": "Improving my skills in mobile and therefore react native, I was able to put into practice the skills that I was able to acquire by doing the animals project in the company project.",
+    "learn2": "The second point that the creation of a project makes from A to Z, I could see that creating a real project requires a lot of time and research, whether at the level of the benchmark but also of the realization of the models, make personas, userflows, and so I understood that to create a project you not only need to have tech background but also ux/ui design.",
+    "learn3": "The third point is to set up the dependencies well to deploy well because even if everything works locally, for builder it was not the case so you have to be careful with the dependencies. Finally the discovery of the cloud, without the project I may not have touched AWS or Airtable"
   },
   "lanet": {
     "info_image": "(One of their projects)",
@@ -76,6 +81,10 @@
     "education": "Education",
     "whats_next": "What's next",
     "hobbies": "hobbies"
+  },
+  "cv":{
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills"
   }
-  
 }

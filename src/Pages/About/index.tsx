@@ -2,7 +2,7 @@ import { Box } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { LayoutPage } from "src/components/Layout"
 import { SpaceDivider } from "src/components/SpaceDivider"
-import { Body3, Body4, SubBody } from "src/components/Typo"
+import { Body3, SubBody } from "src/components/Typo"
 import me from "/assets/about/image1.png"
 import me2 from "/assets/about/image2.png"
 import me3 from "/assets/about/image3.png"
@@ -69,10 +69,7 @@ export const About = () => {
       <div style={{ width: "70%", margin: "auto" }}>
         <div style={{ display: "flex", gap: 40 }}>
           <SubBody>{t("about.info")}</SubBody>
-          <Body4>My name is Edwina</Body4>
         </div>
-        <SpaceDivider />
-        <SubBody>{t("about.education")}</SubBody>
         <SpaceDivider />
         <SubBody>{t("about.whats_next")}</SubBody>
         <SpaceDivider />
