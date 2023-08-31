@@ -1,5 +1,4 @@
 import { Box, Divider } from "@mui/material"
-import { useNavigate } from "react-router"
 import { Link as LinkDom } from "react-router-dom"
 import logo from "../../../public/assets/logo.jpg"
 import { Link, LinkTarget } from "../Link"
@@ -7,7 +6,6 @@ import { SubBody } from "../Typo"
 import { useStyles } from "./Styles"
 
 export const Menu = () => {
-  const navigate = useNavigate()
   const classes = useStyles()
 
   const scrollToTop = () => {
@@ -49,7 +47,7 @@ export const Menu = () => {
           link="https://www.linkedin.com/in/edwina-tan-977bb5159/"
           text="LinkedIn"
         />
-        <li onClick={() => navigate("/cv")}>EdwiiStudio</li>
+        {/* <li onClick={() => navigate("/cv")}>EdwiiStudio</li> */}
       </div>
     </nav>
   )

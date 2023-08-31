@@ -89,32 +89,24 @@ export const Animeaux = () => {
         <SpaceDivider />
         <SubBody>{t("animeaux.critic_session")}</SubBody>
         <Box sx={{ p: 0.1 }}></Box>
-        <Body4>À partir de mes camarades de classe</Body4>
-        <Body4>
-          Eliott : Ça serait bien d’avoir que des icônes dans le menu, notamment
-          la FA pour que ça soit cohérent
-        </Body4>
-        <Body4>
-          Coraline : Peut-être qu’au lieu de mettre 'Profil de l’animal', il
-          faudrait mettre le nom de l’animal en titre, c’est-à-dire : 'Profil de
-          Cacahuète'
-        </Body4>
-        <Body4>
-          Dalinda : Je trouve que c’est mieux d’avoir une bottomSheet plutôt
-          qu’une modale, sur la dernière maquette, pour aller sur un autre
-          screen
-        </Body4>
+        <Body4>{t("animeaux.critic1")}</Body4>
+        <Box sx={{ p: 0.5 }}></Box>
+        <Body4>{t("animeaux.critic2")}</Body4>
+        <Body4>{t("animeaux.critic3")}</Body4>
+        <Body4>{t("animeaux.critic4")}</Body4>
         <SpaceDivider />
         <SubBody>{t("animeaux.hifi_prototype")}</SubBody>
         <SpaceDivider />
+        <SubBody>{t("animeaux.obstacles")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <SpaceDivider />
         <SubBody>{t("animeaux.learn")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
-        <Body4>{t("animeaux.tech_expo1")}</Body4>
+        <Body4>{t("animeaux.learn1")}</Body4>
         <Box sx={{ p: 1 }}></Box>
-        <Body4>{t("animeaux.tech_expo2")}</Body4>
+        <Body4>{t("animeaux.learn2")}</Body4>
         <Box sx={{ p: 1 }}></Box>
-        <Body4>{t("animeaux.tech_expo3")}</Body4>
-        <Body4>{t("animeaux.benchmark2")}</Body4>
+        <Body4>{t("animeaux.learn3")}</Body4>
       </div>
     </article>
   )

@@ -4,7 +4,7 @@ import SFProDisplayMedium from "/fonts/SF-Pro-Display-Medium.woff"
 export const theme = createTheme({
   palette: {
     primary: {
-      light: "#b1ceac",
+      light: "#9fdc8a",
       main: "#7E9C8C",
     },
     secondary: {

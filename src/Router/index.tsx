@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom"
 import { Layout } from "src/components/Layout"
 import { About } from "src/pages/About"
+import { Draw } from "src/pages/Art/Draw"
+import { Paint } from "src/pages/Art/Paint"
 import { Cv } from "src/pages/Cv"
 import { Home } from "src/pages/Home"
 import { Animeaux } from "src/pages/Projects/Animeaux"
@@ -9,8 +11,6 @@ import { Lanetscouade } from "src/pages/Projects/Lanetscouade"
 import { Rick } from "src/pages/Projects/Rick"
 import { Design } from "src/pages/Resources/Design"
 import { Tech } from "src/pages/Resources/Tech"
-import { Draw } from "src/pages/Sketch/Draw"
-import { Paint } from "src/pages/Sketch/Paint"
 
 export const router = createBrowserRouter([
   {
