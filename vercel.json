@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/src/(.*)", "destination": "/$1" },
-    { "source": "/:path*", "destination": "/$1" }
-  ]
-}
