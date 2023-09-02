@@ -3,16 +3,50 @@ import { useTranslation } from "react-i18next"
 import { LayoutPage } from "src/components/Layout"
 import { Body3, Title2 } from "src/components/Typo"
 import { theme } from "src/theme"
+import { Image } from "./Image"
 import draw1 from "/assets/art/draw/draw1.png"
+import draw10 from "/assets/art/draw/draw10.png"
+import draw11 from "/assets/art/draw/draw11.png"
+import draw12 from "/assets/art/draw/draw12.png"
+import draw13 from "/assets/art/draw/draw13.png"
+import draw14 from "/assets/art/draw/draw14.png"
+import draw15 from "/assets/art/draw/draw15.png"
+import draw16 from "/assets/art/draw/draw16.png"
 import draw2 from "/assets/art/draw/draw2.png"
 import draw3 from "/assets/art/draw/draw3.png"
 import draw4 from "/assets/art/draw/draw4.png"
 import draw5 from "/assets/art/draw/draw5.png"
 import draw6 from "/assets/art/draw/draw6.png"
 import draw7 from "/assets/art/draw/draw7.png"
+import draw8 from "/assets/art/draw/draw8.png"
+import draw9 from "/assets/art/draw/draw9.png"
 
 export const Draw = () => {
   const { t } = useTranslation()
+  const drawArray = [
+    draw1,
+    draw3,
+    draw2,
+    draw4,
+    draw7,
+    draw8,
+    draw9,
+    draw5,
+    draw6,
+    draw11,
+    draw12,
+    draw10,
+    draw14,
+    draw13,
+    draw15,
+    draw16,
+  ]
+
+  const renderImg = () => {
+    return drawArray.map((draw) => {
+      return <Image draw={draw} />
+    })
+  }
 
   return (
     <div style={{ backgroundColor: theme.palette.primary.main }}>
@@ -32,62 +66,7 @@ export const Draw = () => {
             gap: 16,
           }}
         >
-          <img
-            src={draw1}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={draw3}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={draw2}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={draw4}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={draw5}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={draw7}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={draw6}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
+          {renderImg()}
         </div>
       </LayoutPage>
       <Box sx={{ p: 2 }} />

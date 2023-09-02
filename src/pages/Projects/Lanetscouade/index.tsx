@@ -46,6 +46,12 @@ export const Lanetscouade = () => {
             <Body4>Vercel</Body4>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
+            <Body3 style={{ color: "#1D1D1F" }}>Team</Body3>
+            <Body4>2 Developers</Body4>
+            <Body4>1 UX/UI Designer</Body4>
+            <Body4>2 Web Designer</Body4>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
             <Body3 style={{ color: "#1D1D1F" }}>Project</Body3>
             <LinkProject
               link="https://lanetscouade.vercel.app/"
@@ -54,6 +60,10 @@ export const Lanetscouade = () => {
             <LinkProject
               link="https://gitlab.com/EliottR/lanetscouade"
               text="Repository"
+            />
+            <LinkProject
+              link="https://www.figma.com/file/3XqrUk4JhTMppURemL8dCt/Comp%C3%A9tition-M2?type=design&node-id=126%3A3272&mode=design&t=niL19jLd4JTNVrjT-1"
+              text="Presentation"
             />
           </div>
           <div>
