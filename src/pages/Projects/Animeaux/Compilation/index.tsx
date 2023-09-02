@@ -10,7 +10,7 @@ export const Compilation = () => {
   return (
     <>
       <SubBody>{t("animeaux.compilation")}</SubBody>
-      <Box sx={{ p: 0.1 }}></Box>
+      <Box sx={{ p: 1 }}></Box>
       <LinkProject
         link="https://www.la-spa.fr/"
         text="SPA"

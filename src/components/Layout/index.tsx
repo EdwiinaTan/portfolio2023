@@ -3,6 +3,7 @@ import { useEffect } from "react"
 import { Outlet, useLocation } from "react-router"
 import { Menu } from "../Menu"
 import { useStyles } from "./Styles"
+import { LayoutProps } from "./Type"
 
 export const Layout = () => {
   const classes = useStyles()
@@ -17,23 +18,22 @@ export const Layout = () => {
       <Menu />
       <div className={classes.container}>
         <Outlet />
-        <Box sx={{ p: 2 }}></Box>
       </div>
     </div>
   )
 }
 
-interface LayoutProps {
-  children: React.ReactNode
-}
-
-export const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
+export const LayoutPage: React.FC<LayoutProps> = ({
+  children,
+  noPadding = true,
+}) => {
   const classes = useStyles()
 
   return (
     <div className={classes.containerPage}>
       <Box sx={{ p: 2 }}></Box>
       {children}
+      {noPadding && <Box sx={{ p: 2 }}></Box>}
     </div>
   )
 }

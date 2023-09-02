@@ -31,8 +31,8 @@ export const Menu = () => {
         <Link router="design" text="Design" />
         <Box sx={{ p: 1 }}></Box>
         <SubBody>Art</SubBody>
-        <Link router="paint" text="Paint" />
         <Link router="draw" text="Draw" />
+        <Link router="paint" text="Paint" />
         <Box sx={{ p: 1 }}></Box>
         {/* <span className={classes.title}>ETSY</span>
         <Link router="shop" text="Shop" />

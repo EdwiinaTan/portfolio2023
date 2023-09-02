@@ -48,6 +48,11 @@ export const Gazou = () => {
               link="https://gitlab.com/Yutsu/gazou"
               text="Repository"
             />
+            <Box sx={{ p: 0.01 }}></Box>
+            <LinkProject
+              link="https://www.canva.com/design/DAFtTnCDbFU/Cyfz8Mo_r8tLDZO-MC3e1A/edit?utm_content=DAFtTnCDbFU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              text="Presentation"
+            />
           </div>
           <div>
             <Body3 style={{ color: "#1D1D1F" }}>Timeline</Body3>

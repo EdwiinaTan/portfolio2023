@@ -11,6 +11,7 @@ export const Presentation = () => {
   return (
     <>
       <SubBody>{t("animeaux.presentation")}</SubBody>
+      <Box sx={{ p: 1 }}></Box>
       <Body2>{t("animeaux.what")}</Body2>
       <div style={{ display: "flex", gap: 32 }}>
         <div style={{ display: "flex", justifyContent: "center" }}>

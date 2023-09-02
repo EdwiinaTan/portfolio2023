@@ -45,6 +45,11 @@
     "critic_session": "Critic session",
     "hifi_prototype": "Hifi prototype",
     "obstacles": "Obstacles encountered",
+    "obstacles1": "The choice of the Stack because at the very beginning I was going to do NextJS to learn a new framework so I coded on it but it tickled me because it was not 100% adapted to mobile and for adding images through his smartphone it wasn't really suitable.",
+    "obstacles2": "There is also React query which is a library that I have never used so it took me time to adapt",
+    "obstacles3": "AWS because I didn't know anything about it",
+    "obstacles4": "Authentication because given that I don't use node or a server I managed the authentication on the front, I tried but it's not at all suitable for that.",
+    "obstacles5": "Finally, the most terrible thing is that I was not able to hear from my former colleague in January 2023, I don't know why but she blocked me everywhere, it's really disappointing because I think I had a good relationship. solution and that we had become close. As a result, I was not able to have all the information necessary for the animal project and the application could not be set up...",
     "learn": "What I learn",
     "learn1": "Improving my skills in mobile and therefore react native, I was able to put into practice the skills that I was able to acquire by doing the animals project in the company project.",
     "learn2": "The second point that the creation of a project makes from A to Z, I could see that creating a real project requires a lot of time and research, whether at the level of the benchmark but also of the realization of the models, make personas, userflows, and so I understood that to create a project you not only need to have tech background but also ux/ui design.",
@@ -93,6 +98,9 @@
     "skills": "Skills"
   },
   "draw": {
-    "intro": "I would have liked to go back in time and put the date once the drawing was finished... At that time, I was really in my Anime mood."
+    "intro": "I was really in my Anime mood when I was young."
+  },
+  "paint": {
+    "intro": "My sister bought me acrylic paints."
   }
 }

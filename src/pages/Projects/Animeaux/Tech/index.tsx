@@ -12,7 +12,7 @@ export const Tech = () => {
   return (
     <>
       <SubBody>{t("animeaux.tech_spe")}</SubBody>
-      <Box sx={{ p: 0.1 }}></Box>
+      <Box sx={{ p: 1 }}></Box>
       <LinkProject
         link="https://reactnative.dev/"
         text="React Native"

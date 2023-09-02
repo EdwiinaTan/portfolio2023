@@ -61,6 +61,11 @@ export const Animeaux = () => {
               link="https://github.com/EdwiinaTan/animeaux"
               text="Repository"
             />
+            <Box sx={{ p: 0.01 }}></Box>
+            <LinkProject
+              link="https://www.canva.com/design/DAFtTmWgpv0/nNqA5X70zZNikwJyEluYLg/edit?utm_content=DAFtTmWgpv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              text="Presentation"
+            />
           </div>
           <div>
             <Body3 style={{ color: theme.palette.common.black }}>
@@ -88,7 +93,7 @@ export const Animeaux = () => {
         <img src={lofi2} alt="Animeaux animal association" width="50%" />
         <SpaceDivider />
         <SubBody>{t("animeaux.critic_session")}</SubBody>
-        <Box sx={{ p: 0.1 }}></Box>
+        <Box sx={{ p: 1 }}></Box>
         <Body4>{t("animeaux.critic1")}</Body4>
         <Box sx={{ p: 0.5 }}></Box>
         <Body4>{t("animeaux.critic2")}</Body4>
@@ -99,6 +104,15 @@ export const Animeaux = () => {
         <SpaceDivider />
         <SubBody>{t("animeaux.obstacles")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.obstacles1")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.obstacles2")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.obstacles3")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.obstacles4")}</Body4>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>{t("animeaux.obstacles5")}</Body4>
         <SpaceDivider />
         <SubBody>{t("animeaux.learn")}</SubBody>
         <Box sx={{ p: 1 }}></Box>
@@ -108,6 +122,7 @@ export const Animeaux = () => {
         <Box sx={{ p: 1 }}></Box>
         <Body4>{t("animeaux.learn3")}</Body4>
       </div>
+      <Box sx={{ p: 2 }}></Box>
     </article>
   )
 }

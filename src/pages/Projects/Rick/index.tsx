@@ -4,7 +4,7 @@ import { Link as LinkDom } from "react-router-dom"
 import { LinkTarget } from "src/components/Link"
 import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
 import { theme } from "src/theme"
-import banner from "/assets/rick/banner.svg"
+import banner from "/assets/projects/rick/banner.svg"
 
 export const Rick = () => {
   const { t } = useTranslation()
