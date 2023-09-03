@@ -1,8 +1,7 @@
 import { Box } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { LayoutPage } from "src/components/Layout"
-import { SpaceDivider } from "src/components/SpaceDivider"
-import { Body3, SubBody } from "src/components/Typo"
+import { Body3, Body4, SubBody } from "src/components/Typo"
 import me from "/assets/about/image1.png"
 import me2 from "/assets/about/image2.png"
 import me3 from "/assets/about/image3.png"
@@ -66,13 +65,6 @@ export const About = () => {
               height="200"
               style={{ objectFit: "cover", borderRadius: 8 }}
             />
-            {/* <img
-              src={me8}
-              alt="Animeaux animal association"
-              width="250"
-              height="200"
-              style={{ objectFit: "cover", borderRadius: 8 }}
-            /> */}
             <img
               src={me4}
               alt="Animeaux animal association"
@@ -105,22 +97,33 @@ export const About = () => {
         </div>
       </div>
       <Box sx={{ p: 4 }} />
-      <div style={{ width: "70%", margin: "auto" }}>
-        <div style={{ display: "flex", gap: 40 }}>
+      <div
+        style={{
+          width: "70%",
+          margin: "auto",
+          display: "flex",
+          justifyContent: "space-between",
+        }}
+      >
+        <div>
           <SubBody>{t("about.info")}</SubBody>
+          <Body4>Hi</Body4>
+          <Body4>CV</Body4>
         </div>
-        <SpaceDivider />
-        <SubBody>{t("about.whats_next")}</SubBody>
-        <SpaceDivider />
-        <SubBody>{t("about.hobbies")}</SubBody>
+        <div>
+          <SubBody>{t("about.whats_next")}</SubBody>
+          <Body4>Hope having a dog</Body4>
+          <Body4>Be consistent</Body4>
+          <Body4>Do more personal project</Body4>
+          <Body4>Maybe fullstack JS?</Body4>
+        </div>
+        <div>
+          <SubBody>{t("about.hobbies")}</SubBody>
+          <Body4>Love to build Lego!</Body4>
+          <Body4>Read & draw</Body4>
+          <Body4>Drink matcha</Body4>
+        </div>
       </div>
-      {/* <img
-        src={me6}
-        alt="Animeaux animal association"
-        width="250"
-        height="300"
-        style={{ borderRadius: 8, objectFit: "contain" }}
-      /> */}
     </LayoutPage>
   )
 }

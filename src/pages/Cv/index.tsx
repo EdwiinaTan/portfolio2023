@@ -2,7 +2,7 @@ import { Box } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { LayoutPage } from "src/components/Layout"
 import { SpaceDivider } from "src/components/SpaceDivider"
-import { Body3, SubBody } from "src/components/Typo"
+import { Body3, Body4, SubBody } from "src/components/Typo"
 
 export const Cv = () => {
   const { t } = useTranslation()
@@ -19,6 +19,8 @@ export const Cv = () => {
         <SubBody>{t("cv.education")}</SubBody>
         <SpaceDivider />
         <SubBody>{t("cv.skills")}</SubBody>
+        <Body4>Great sense of listening</Body4>
+        <Body4>Vllo video montage</Body4>
       </div>
     </LayoutPage>
   )
