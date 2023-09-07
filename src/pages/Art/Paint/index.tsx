@@ -34,22 +34,6 @@ export const Paint = () => {
               borderRadius: 8,
             }}
           />
-          <img
-            src={paint1}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
-          <img
-            src={paint1}
-            alt="Animeaux animal association"
-            width="100%"
-            style={{
-              borderRadius: 8,
-            }}
-          />
         </div>
       </LayoutPage>
       <Box sx={{ p: 2 }} />
