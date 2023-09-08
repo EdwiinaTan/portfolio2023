@@ -1,4 +1,5 @@
-import { Box, Divider } from "@mui/material"
+import { Box, Button, Divider } from "@mui/material"
+import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
 import logo from "../../../public/assets/logo.jpg"
 import { Link, LinkTarget } from "../Link"
@@ -7,12 +8,17 @@ import { useStyles } from "./Styles"
 
 export const Menu = () => {
   const classes = useStyles()
+  const { i18n } = useTranslation()
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     })
+  }
+
+  const handleChangeLangueage = (lang: string) => {
+    i18n.changeLanguage(lang)
   }
 
   return (
@@ -48,6 +54,10 @@ export const Menu = () => {
           text="LinkedIn"
         />
         {/* <li onClick={() => navigate("/cv")}>EdwiiStudio</li> */}
+      </div>
+      <div style={{ display: "flex" }}>
+        <Button onClick={() => handleChangeLangueage("en")}>EN</Button>{" "}
+        <Button onClick={() => handleChangeLangueage("fr")}>FR</Button>
       </div>
     </nav>
   )

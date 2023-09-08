@@ -1,4 +1,8 @@
 {
+  "Home": {
+    "see_more": "Voir plus ?",
+    "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)"
+  },
   "animeaux": {
     "help_volunteers": "Aider les bénévoles",
     "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
@@ -20,16 +24,26 @@
     "why": "Le but de l'hackaton était de faire la refonte et l'identité du site"
   },
   "tech": {
-    "mockups": "Mockups",
-    "icons": "Icones",
-    "ai": "IA"
+    "ai": "IA",
+    "intro": "Il existe de nombreuses ressources sur Internet, j'ai donc souhaité rassembler tous les sites Web que je trouve utiles et pertinents. J'espère que cela t'aidera.",
+    "applications": "Applications",
+    "templates": "Inspiration de template"
   },
   "design": {
     "intro": "Trouver l'inspiration pour le design peut parfois être difficile ou complexe. J'ai donc compilé une liste de ressources pour affiner la conception d'un site",
     "logo": "Logo",
     "fonts": "Fonts",
-    "mockups": "Mockups",
+    "mockups": "Maquettes",
     "illustrations": "Illustrations",
-    "icons": "Icons"
+    "icons": "Icones"
+  },
+  "about": {
+    "info": "Info",
+    "education": "Éducation",
+    "whats_next": "Plus tard",
+    "hobbies": "Loisirs"
+  },
+  "draw": {
+    "intro": "TEST FR"
   }
 }

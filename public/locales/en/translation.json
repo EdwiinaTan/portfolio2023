@@ -1,6 +1,7 @@
 {
   "home": {
-    "see_more": "See more?"
+    "see_more": "See more?",
+    "intro": "I'am a Frontend Developer based in Paris, currently working at Flatsy. I build some fun projects with my little energy. I hope you find this portfolio enjoyable and inspiring :)"
   },
   "animeaux": {
     "help_volunteers": "Help volunteers",
@@ -75,6 +76,8 @@
   "tech": {
     "ai": "AI",
     "intro": "There are a lot of resources on Internet, so I wanted to bring all the websites that I find useful and relevant. I hope this will help you.",
+    "mockups": "Maquettes",
+    "icons": "Icons",
     "templates": "Inspiration templates",
     "applications": "Applications"
   },
