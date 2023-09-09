@@ -14,14 +14,22 @@
     "obstacles2": "Il y a également React query qui est une librairie que je n’ai jamais utilisé j’ai donc pris du temps à m’adapter",
     "obstacles3": "AWS car je ne connaissais rien dessus",
     "obstacles4": "L’authentification car étant donnée que j’utilise pas node ou de serveur j’ai géré l’authentification en front, j'ai essayé mais c’est pas du tout adapté pour ça.",
-    "obstacles5": "Enfin le plus terrible c’est que j’ai pu plus eu de nouvelle de mon ancienne collègue en janvier 2023, je sais pas pourquoi mais elle m’a bloqué de partout, c’est vraiment décevant car je trouve j’avais une bonne solution et qu'on était devenue proche. Du coup je n’ai pas pu avoir toutes les informations nécessaires au projet d’animeaux et l'application n'a pas pu être mise en place..."
+    "obstacles5": "Enfin le plus terrible c’est que j’ai pu plus eu de nouvelle de mon ancienne collègue en janvier 2023, je sais pas pourquoi mais elle m’a bloqué de partout, c’est vraiment décevant car je trouve j’avais une bonne solution et qu'on était devenue proche. Du coup je n’ai pas pu avoir toutes les informations nécessaires au projet d’animeaux et l'application n'a pas pu être mise en place...",
+    "what": "Que fais l'association ?",
+    "goal": "Quel est le but de l'application ?",
+    "problem": "Quel est le problème ?",
+    "tech_spe": "Specification technique",
+    "critic_session": "Session critique",
+    "obstacles": "Obstacles rencontrés",
+    "learn": "Ce que j'ai appris",
+    "critic1": "Par mes camarades de classes"
   },
   "gazou": {
     "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur."
   },
   "lanet": {
-    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles.",
-    "why": "Le but de l'hackaton était de faire la refonte et l'identité du site"
+    "gas_stations": "Stations essences",
+    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles."
   },
   "tech": {
     "ai": "IA",
@@ -44,6 +52,9 @@
     "hobbies": "Loisirs"
   },
   "draw": {
-    "intro": "TEST FR"
+    "intro": "J'étais dans ma période animé quand j'étais jeune."
+  },
+  "paint": {
+    "intro": "Ma soeur m'a offert un kit de peinture acrylique."
   }
 }
