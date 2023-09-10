@@ -9,6 +9,16 @@ export const Tech = () => {
   const { t } = useTranslation()
   const classes = useStyles()
 
+  const renderTechReact = () => {
+    return [1, 2, 3, 4].map((i) => (
+      <Grid item xs={6} key={i}>
+        <div className={classes.item}>
+          <Body4>{t(`animeaux.tech_react${i}`)}</Body4>
+        </div>
+      </Grid>
+    ))
+  }
+
   return (
     <>
       <SubBody>{t("animeaux.tech_spe")}</SubBody>
@@ -24,26 +34,7 @@ export const Tech = () => {
         spacing={{ xs: 2, md: 3 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
-        <Grid item xs={6}>
-          <div className={classes.item}>
-            <Body4>{t("animeaux.tech_react1")}</Body4>
-          </div>
-        </Grid>
-        <Grid item xs={6}>
-          <div className={classes.item}>
-            <Body4>{t("animeaux.tech_react2")}</Body4>
-          </div>
-        </Grid>
-        <Grid item xs={6}>
-          <div className={classes.item}>
-            <Body4>{t("animeaux.tech_react3")}</Body4>
-          </div>
-        </Grid>
-        <Grid item xs={6}>
-          <div className={classes.item}>
-            <Body4>{t("animeaux.tech_react4")}</Body4>
-          </div>
-        </Grid>
+        {renderTechReact()}
       </Grid>
       <Box sx={{ p: 2 }}></Box>
       <LinkProject

@@ -1,5 +1,5 @@
 {
-  "Home": {
+  "home": {
     "see_more": "Voir plus ?",
     "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)"
   },
@@ -10,26 +10,40 @@
     "repository": "Répertoire",
     "compilation": "Sélection",
     "persona": "Persona",
+    "presentation": "Présentation",
+    "purpose": "Objectif",
+    "benchmark": "Benchmark",
+    "obstacles": "Obstacles rencontrés",
     "obstacles1": "Le choix de la Stack car au tout début j’étais parti pour faire du NextJS pour apprendre un nouveau framework j’ai donc codé dessus mais ça me titillait car ce n’était pas 100% adapté au mobile et pour l’ajout des images à travers son smartphone ce n’était pas vraiment adapté.",
-    "obstacles2": "Il y a également React query qui est une librairie que je n’ai jamais utilisé j’ai donc pris du temps à m’adapter",
-    "obstacles3": "AWS car je ne connaissais rien dessus",
-    "obstacles4": "L’authentification car étant donnée que j’utilise pas node ou de serveur j’ai géré l’authentification en front, j'ai essayé mais c’est pas du tout adapté pour ça.",
+    "obstacles2": "Il y a également React query qui est une librairie que je n’ai jamais utilisé, j’ai donc pris du temps à m’adapter",
+    "obstacles3": "AWS car j'avais jamais utilisé auparavant.",
+    "obstacles4": "L’authentification car je n'utilise pas node ou de serveur j’ai géré l’authentification en front, j'ai essayé mais c’est pas du tout adapté pour ça.",
     "obstacles5": "Enfin le plus terrible c’est que j’ai pu plus eu de nouvelle de mon ancienne collègue en janvier 2023, je sais pas pourquoi mais elle m’a bloqué de partout, c’est vraiment décevant car je trouve j’avais une bonne solution et qu'on était devenue proche. Du coup je n’ai pas pu avoir toutes les informations nécessaires au projet d’animeaux et l'application n'a pas pu être mise en place...",
+    "tech_react1": "C’est un langage qui permet de développer sur Android et IOS et donc toucher un plus grand nombre de bénévoles. De plus il n’y a qu’un seul code source ce qui permet d’avoir une meilleur maintenabilité.",
+    "tech_react2": "Il dispose d'une très large communauté de développeurs actifs, avec 1,4 million de téléchargements par semaine, et est régulièrement mis à jour.",
+    "tech_react3": "It has a very large community of active developers with 1.4 million downloads per week and is regularly updated.",
+    "tech_react4": "C'est déjà un langage sur lequel j'ai déjà travaillé car dans mon entreprise actuelle. J'ai donc quelques connaissances et j'aimerais me perfectionner en créant cette application à partir de zéro. Cela m'a permis de mettre mes connaissances au profit de mon application, mais aussi au profit 'Flatguide', qui est l’application de mon entreprise.",
     "what": "Que fais l'association ?",
     "goal": "Quel est le but de l'application ?",
     "problem": "Quel est le problème ?",
     "tech_spe": "Specification technique",
     "critic_session": "Session critique",
-    "obstacles": "Obstacles rencontrés",
     "learn": "Ce que j'ai appris",
-    "critic1": "Par mes camarades de classes"
-  },
-  "gazou": {
-    "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur."
+    "low_fidelity_prototype": "Prototype Lo-Fi",
+    "critic1": "Par mes camarades de classes",
+    "hifi_prototype": "Prototype HiFi"
   },
   "lanet": {
-    "gas_stations": "Stations essences",
+    "info_image": "(Un de leur projets)",
+    "digital_agency": "Agence digital",
     "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles."
+  },
+  "gazou": {
+    "gas_stations": "Stations essences",
+    "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur."
+  },
+  "rick": {
+    "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
   },
   "tech": {
     "ai": "IA",
@@ -50,6 +64,11 @@
     "education": "Éducation",
     "whats_next": "Plus tard",
     "hobbies": "Loisirs"
+  },
+  "cv": {
+    "experience": "Expérience",
+    "education": "Éducation",
+    "skills": "Compétences"
   },
   "draw": {
     "intro": "J'étais dans ma période animé quand j'étais jeune."
