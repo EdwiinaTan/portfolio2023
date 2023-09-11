@@ -50,13 +50,17 @@ export const Animeaux = () => {
             <Body4>Aws-Sdk</Body4>
           </div>
           <div>
-            <Body3 style={{ color: theme.palette.common.black }}>Tools</Body3>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("tools")}
+            </Body3>
             <Body4>Figma</Body4>
             <Body4>Airtable</Body4>
             <Body4>AWS - Bucket S3</Body4>
           </div>
           <div>
-            <Body3 style={{ color: theme.palette.common.black }}>Project</Body3>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("project")}
+            </Body3>
             <LinkProject
               link="https://github.com/EdwiinaTan/animeaux"
               text="Repository"
@@ -69,7 +73,7 @@ export const Animeaux = () => {
           </div>
           <div>
             <Body3 style={{ color: theme.palette.common.black }}>
-              Timeline
+              {t("timeline")}
             </Body3>
             <Body4>November 2022 - June 2023</Body4>
           </div>

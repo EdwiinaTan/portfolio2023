@@ -1,79 +1,106 @@
 {
-  "home": {
-    "see_more": "Voir plus ?",
-    "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)"
+  "about": {
+    "education": "Éducation",
+    "hobbies": "Loisirs",
+    "info": "Info",
+    "whats_next": "Plus tard"
   },
   "animeaux": {
-    "help_volunteers": "Aider les bénévoles",
-    "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
-    "tools": "Outils",
-    "repository": "Répertoire",
-    "compilation": "Sélection",
-    "persona": "Persona",
-    "presentation": "Présentation",
-    "purpose": "Objectif",
     "benchmark": "Benchmark",
+    "benchmark1": "La Société protectrice des animaux (SPA) est la plus ancienne société de protection des animaux, créée en 1845. Elle recueille les animaux en détresse, perdus, abandonnés et sont pris en charge par une équipe du site suite à un abandon, une sortie de fourrière, etc. Les animaux sont identifiés puis vaccinés, stérilisés, soignés et éduqués pour être proposés à l'adoption.",
+    "benchmark2": "Créée en 1995, elle a pour objectif de lutter contre toutes les formes de souffrance animale et, pour ce faire, utilise différents moyens d'action : l'assistance, la lutte, l'éducation ainsi que l'encouragement par le biais de prix et de visas.",
+    "benchmark3": "C'est une association engagée dans la protection animale et l'écologie, qui veut sauver tous les animaux sans distinction d'espèce, de race ou d'âge et vise à encourager les principes de protection des animaux ainsi que des ressources naturelles.",
+    "compilation": "Sélection",
+    "critic1": "Par mes camarades de classes",
+    "critic2": "Eliott : Il serait bon de n'avoir que des icônes dans le menu, en particulier pour la famille d'accueil, afin qu'il soit cohérent.",
+    "critic3": "Coraline : Peut-être qu'au lieu de mettre 'Profil de l'animal',  c’est mieux de mettre le nom de l'animal dans le titre, par exemple : 'Profil de Peanut'.",
+    "critic4": "Dalinda : Je pense qu'il est préférable d'avoir une bottomSheet plutôt qu'une modale, sur le dernier modèle, pour passer à un autre écran.",
+    "critic_session": "Session critique",
+    "goal": "Quel est le but de l'application ?",
+    "goal1": "A back office for volunteers to simplify and optimize the management of rescued animals and their availability for accommodation for a foster family while the animal is being adopted.",
+    "goal2": "Volunteers will be able to add an animal during an intervention, monitor information on each animal in real time, such as their state of health, their behavior, their diet, etc.",
+    "goal3": "Track requests to become a foster family in real time, including their availability and location, as well as information to current foster families about the animals being housed there.",
+    "goal4": "Statistics will also be displayed in the application allowing volunteers to know the reasons for animal abandonment and adapt their communication on social networks.",
+    "help_volunteers": "Aider les bénévoles",
+    "hifi_prototype": "Prototype HiFi",
+    "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
+    "learn": "Ce que j'ai appris",
+    "learn1": "En améliorant mes compétences en mobile et donc en react native, j'ai pu mettre en pratique les compétences que j'ai pu acquérir en réalisant le projet animaux dans le projet d'entreprise.",
+    "learn2": "Le deuxième point est que j'ai crée un projet à partir de zéro au niveau du design. J'ai pu voir que la création d'un vrai projet demande beaucoup de temps et de recherche, que ce soit au niveau du benchmark mais aussi de la réalisation des maquettes, faire des personas, des userflows, et donc j'ai compris que pour créer un projet il ne faut pas seulement avoir un background tech mais aussi ux/ui design.",
+    "learn3": "Enfin, il faut bien paramétrer les dépendances pour bien déployer car même si tout fonctionne en local, pour builder ce n'était pas le cas donc il faut faire attention aux dépendances. Enfin la découverte du cloud, sans le projet je n'aurais peut-être pas touché à AWS ou Airtable.",
+    "low_fidelity_prototype": "Prototype Lo-Fi",
     "obstacles": "Obstacles rencontrés",
     "obstacles1": "Le choix de la Stack car au tout début j’étais parti pour faire du NextJS pour apprendre un nouveau framework j’ai donc codé dessus mais ça me titillait car ce n’était pas 100% adapté au mobile et pour l’ajout des images à travers son smartphone ce n’était pas vraiment adapté.",
     "obstacles2": "Il y a également React query qui est une librairie que je n’ai jamais utilisé, j’ai donc pris du temps à m’adapter",
     "obstacles3": "AWS car j'avais jamais utilisé auparavant.",
     "obstacles4": "L’authentification car je n'utilise pas node ou de serveur j’ai géré l’authentification en front, j'ai essayé mais c’est pas du tout adapté pour ça.",
     "obstacles5": "Enfin le plus terrible c’est que j’ai pu plus eu de nouvelle de mon ancienne collègue en janvier 2023, je sais pas pourquoi mais elle m’a bloqué de partout, c’est vraiment décevant car je trouve j’avais une bonne solution et qu'on était devenue proche. Du coup je n’ai pas pu avoir toutes les informations nécessaires au projet d’animeaux et l'application n'a pas pu être mise en place...",
-    "tech_react1": "C’est un langage qui permet de développer sur Android et IOS et donc toucher un plus grand nombre de bénévoles. De plus il n’y a qu’un seul code source ce qui permet d’avoir une meilleur maintenabilité.",
-    "tech_react2": "Il dispose d'une très large communauté de développeurs actifs, avec 1,4 million de téléchargements par semaine, et est régulièrement mis à jour.",
-    "tech_react3": "It has a very large community of active developers with 1.4 million downloads per week and is regularly updated.",
-    "tech_react4": "C'est déjà un langage sur lequel j'ai déjà travaillé car dans mon entreprise actuelle. J'ai donc quelques connaissances et j'aimerais me perfectionner en créant cette application à partir de zéro. Cela m'a permis de mettre mes connaissances au profit de mon application, mais aussi au profit 'Flatguide', qui est l’application de mon entreprise.",
-    "what": "Que fais l'association ?",
-    "goal": "Quel est le but de l'application ?",
+    "persona": "Persona",
+    "presentation": "Présentation",
+    "presPara1": "L'association 'Animeaux' œuvre pour la protection et le bien-être des animaux à Meaux, en France. Elle propose des adoptions d'animaux abandonnés, errants ou maltraités et des programmes de soins vétérinaires.",
+    "presPara2": "L'association effectue des interventions qui peuvent avoir lieu chez des particuliers, dans des lieux publics ou dans d'autres lieux où les animaux ont besoin d'aide. Les bénévoles de l'association sont formés pour intervenir dans ces situations et travaillent souvent en collaboration avec les autorités locales pour garantir la sécurité des animaux et de toutes les personnes impliquées.",
+    "presPara3": "Les bénévoles dépendent principalement des dons et des contributions pour financer toutes leurs activités. Les dons peuvent être effectués en ligne sur leur site web. L'association organise également des événements de collecte de fonds tout au long de l'année et utilise les médias sociaux pour sensibiliser le public à sa cause.",
     "problem": "Quel est le problème ?",
+    "problem1": "Le back-office web n'est pas du tout responsive, elle doit donc utiliser son ordinateur pour simplement aller vérifier les informations sur un animal, ce qui est assez contraignant pour elle.",
+    "problem2": "Il manquait des informations sur les familles d'accueil, telles que la description d'une famille, des critères tels que l'allergie ou non aux poils de chat, etc.",
+    "problem3": "Pour devenir une famille d'accueil, il faut d'abord passer par un formulaire pour mieux la connaître et voir si elle est apte à le devenir. Et ce formulaire, c'est l'association qui le paie 5€/mois. Même si ce n'est pas très cher, cela aurait pu être utilisé pour la nourriture ou les soins.",
+    "purpose": "Objectif",
+    "repository": "Répertoire",
+    "tech_airtable": "Pour la gestion de la base de données, j'ai choisi d'utiliser Airtable. Il s'agit d'une plateforme cloud très intuitive et facile à utiliser qui permet aux utilisateurs de créer, de partager et de collaborer sur des tableaux facilement personnalisables. Elle offre également une API générée à partir des tableaux, ce qui permet de l'intégrer facilement et rapidement dans mon application. Les routes étant faites, cela permet de gagner du temps et de l'énergie. Il est également très flexible et évolutif car il est possible d'ajouter un nouveau champ ou une nouvelle table, de pouvoir éditer et supprimer très facilement et rapidement. Avec cet outil, il est également possible de créer un formulaire libre, qui permet de récupérer les réponses pour devenir famille d'accueil. Les réponses sont alors ajoutées à la table 'formInscription'. Cette fonctionnalité est gratuite pour 1200 réponses par mois, ce qui est largement suffisant. En plus de tout cela, Airtable propose des vues personnalisées, c'est-à-dire qu'il est possible de choisir et de partager le type de vue le plus adapté aux données collectées (calendrier, Kanban, diagramme de Gantt, etc.).",
+    "tech_aws": "Pour le stockage des images, lorsque le volontaire souhaite ajouter une photo, il est impossible d'envoyer une image directement à Airtable. J'ai donc décidé d'utiliser Amazon Web Service, une plateforme de services en nuage d'Amazon, en créant un Bucket S3 pour pouvoir stocker les images. Cela permettra de stocker les images, de créer une URL à partir de l'image et de l'envoyer à Airtable. Il est également nécessaire de bien configurer le Bucket S3 et également l'IAM (Identity and Access Management), à savoir les politiques d'accès, la création d'un utilisateur via l'accès programmatique Aws, etc. afin que n'importe quel volontaire puisse ajouter ou supprimer une image sans condition préalable.",
+    "tech_expo1": "Il est capable d'utiliser votre smartphone comme smiluator et donc de tester directement sur celui-ci. Le simulateur Xcode n'est pas à 100% car il ne s'agit pas d'un vrai smartphone, il est donc préférable d'utiliser son téléphone pour pouvoir tester ses applications. Les modifications sont également effectuées en temps réel, c'est-à-dire que toute modification est effectuée directement sur le téléphone.",
+    "tech_expo2": "Nous pouvons facilement et rapidement construire le projet dans un fichier .apk et .ipa. Vous devez d'abord installer eas-cli, vous connecter avec votre compte et configurer le fichier eas.json pour qu'il puisse se construire correctement. Cependant, vous ne devez pas dépasser plus de 30 builds par mois, ce qui est gratuit, car sinon vous devrez payer.",
+    "tech_expo3": "Il vous permet également d'envoyer très facilement le build à l'App store et donc d'utiliser TestFlight pour pouvoir tester directement sur votre iPhone.",
+    "tech_expo4": "Enfin, il offre une multitude de fonctionnalités natives qui facilitent son développement, comme l'ajout d'une photo à partir de sa bibliothèque.",
+    "tech_react1": "C’est un langage qui permet de développer sur Android et IOS et donc toucher un plus grand nombre de bénévoles. De plus il n’y a qu’un seul code source ce qui permet d’avoir une meilleur maintenabilité.",
+    "tech_react2": "React Native offre une expérience utilisateur similaire à celle d'une application native et propose de nombreuses fonctionnalités et composants déjà construits.",
+    "tech_react3": "Il dispose d'une très large communauté de développeurs actifs, avec 1,4 million de téléchargements par semaine, et est régulièrement mis à jour.",
+    "tech_react4": "C'est déjà un langage sur lequel j'ai déjà travaillé car dans mon entreprise actuelle. J'ai donc quelques connaissances et j'aimerais me perfectionner en créant cette application à partir de zéro. Cela m'a permis de mettre mes connaissances au profit de mon application, mais aussi au profit 'Flatguide', qui est l’application de mon entreprise.",
     "tech_spe": "Specification technique",
-    "critic_session": "Session critique",
-    "learn": "Ce que j'ai appris",
-    "low_fidelity_prototype": "Prototype Lo-Fi",
-    "critic1": "Par mes camarades de classes",
-    "hifi_prototype": "Prototype HiFi"
+    "what": "Que fais l'association ?"
   },
-  "lanet": {
-    "info_image": "(Un de leur projets)",
-    "digital_agency": "Agence digital",
-    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles."
+  "cv": {
+    "education": "Éducation",
+    "experience": "Expérience",
+    "skills": "Compétences"
+  },
+  "design": {
+    "fonts": "Fonts",
+    "icons": "Icones",
+    "illustrations": "Illustrations",
+    "intro": "Trouver l'inspiration pour le design peut parfois être difficile ou complexe. J'ai donc compilé une liste de ressources pour affiner la conception d'un site",
+    "logo": "Logo",
+    "mockups": "Maquettes"
+  },
+  "draw": {
+    "intro": "J'étais dans ma période animé quand j'étais jeune."
   },
   "gazou": {
     "gas_stations": "Stations essences",
     "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur."
   },
+  "home": {
+    "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)",
+    "see_more": "Voir plus ?"
+  },
+  "lanet": {
+    "digital_agency": "Agence digital",
+    "info_image": "(Un de leur projets)",
+    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles."
+  },
+  "paint": {
+    "intro": "Ma soeur m'a offert un kit de peinture acrylique."
+  },
+  "project": "Projet",
   "rick": {
     "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
   },
   "tech": {
     "ai": "IA",
-    "intro": "Il existe de nombreuses ressources sur Internet, j'ai donc souhaité rassembler tous les sites Web que je trouve utiles et pertinents. J'espère que cela t'aidera.",
     "applications": "Applications",
+    "intro": "Il existe de nombreuses ressources sur Internet, j'ai donc souhaité rassembler tous les sites Web que je trouve utiles et pertinents. J'espère que cela t'aidera.",
     "templates": "Inspiration de template"
   },
-  "design": {
-    "intro": "Trouver l'inspiration pour le design peut parfois être difficile ou complexe. J'ai donc compilé une liste de ressources pour affiner la conception d'un site",
-    "logo": "Logo",
-    "fonts": "Fonts",
-    "mockups": "Maquettes",
-    "illustrations": "Illustrations",
-    "icons": "Icones"
-  },
-  "about": {
-    "info": "Info",
-    "education": "Éducation",
-    "whats_next": "Plus tard",
-    "hobbies": "Loisirs"
-  },
-  "cv": {
-    "experience": "Expérience",
-    "education": "Éducation",
-    "skills": "Compétences"
-  },
-  "draw": {
-    "intro": "J'étais dans ma période animé quand j'étais jeune."
-  },
-  "paint": {
-    "intro": "Ma soeur m'a offert un kit de peinture acrylique."
-  }
+  "timeline": "Chronologie",
+  "tools": "Outils"
 }
