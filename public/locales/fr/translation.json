@@ -17,10 +17,10 @@
     "critic4": "Dalinda : Je pense qu'il est préférable d'avoir une bottomSheet plutôt qu'une modale, sur le dernier modèle, pour passer à un autre écran.",
     "critic_session": "Session critique",
     "goal": "Quel est le but de l'application ?",
-    "goal1": "A back office for volunteers to simplify and optimize the management of rescued animals and their availability for accommodation for a foster family while the animal is being adopted.",
-    "goal2": "Volunteers will be able to add an animal during an intervention, monitor information on each animal in real time, such as their state of health, their behavior, their diet, etc.",
-    "goal3": "Track requests to become a foster family in real time, including their availability and location, as well as information to current foster families about the animals being housed there.",
-    "goal4": "Statistics will also be displayed in the application allowing volunteers to know the reasons for animal abandonment and adapt their communication on social networks.",
+    "goal1": "Un back-office pour les bénévoles afin de simplifier et d'optimiser la gestion des animaux sauvés et leur disponibilité pour l'hébergement dans une famille d'accueil pendant que l'animal est en cours d'adoption.",
+    "goal2": "Les volontaires pourront ajouter un animal lors d'une intervention, suivre en temps réel des informations sur chaque animal, telles que son état de santé, son comportement, son alimentation, etc.",
+    "goal3": "Suivre en temps réel les demandes de familles d'accueil, y compris leur disponibilité et leur localisation, ainsi que les informations fournies aux familles d'accueil actuelles sur les animaux qui y sont hébergés.",
+    "goal4": "Des statistiques seront également affichées dans l'application, ce qui permettra aux bénévoles de connaître les raisons de l'abandon des animaux et d'adapter leur communication sur les réseaux sociaux.",
     "help_volunteers": "Aider les bénévoles",
     "hifi_prototype": "Prototype HiFi",
     "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
@@ -86,7 +86,8 @@
   "lanet": {
     "digital_agency": "Agence digital",
     "info_image": "(Un de leur projets)",
-    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles."
+    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles.",
+    "why": "Le but de l'hackaton était de faire la refonte du site internet et challenger leur identité."
   },
   "paint": {
     "intro": "Ma soeur m'a offert un kit de peinture acrylique."
