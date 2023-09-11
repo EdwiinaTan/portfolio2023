@@ -3,7 +3,6 @@ import { useState } from "react"
 import { useTranslation } from "react-i18next"
 // import { useAirtableAnimal } from "src/airtable"
 import { Card } from "src/components/Card"
-import { LinkTarget } from "src/components/Link"
 import { Body3, Title2 } from "src/components/Typo"
 import { useStyles } from "./Styles"
 import animeaux from "/assets/animeaux/animeaux.png"
@@ -35,12 +34,13 @@ export const Home = () => {
       <Box sx={{ p: 2 }} />
       <Body3>Hello ✧</Body3>
       <Box sx={{ p: 2 }} />
-      <Title2>
+      {/* <Title2>
         I'am a Frontend Developer based in Paris, currently working at{" "}
         <LinkTarget link="https://www.flatsy.fr/" text="Flatsy" />. I build some
         fun projects with my little energy. I hope you find this portfolio
         enjoyable and inspiring :)
-      </Title2>
+      </Title2> */}
+      <Title2>{t("intro")}</Title2>
       <Box sx={{ p: 2 }} />
       <Divider />
       <Box sx={{ p: 2 }} />

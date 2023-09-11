@@ -3,7 +3,15 @@
     "education": "Éducation",
     "hobbies": "Loisirs",
     "info": "Info",
-    "whats_next": "Plus tard"
+    "whats_next": "Plus tard",
+    "dog": "J'espère avoir un chien",
+    "consistent": "Être constante",
+    "personal": "Faire plus de projet personnel",
+    "fullstask": "Peut-être fullstack JS ?",
+    "lego": "J'aime constuire des Lego",
+    "read_draw": "Lire et dessiner",
+    "matcha": "Boire du matcha",
+    "brawl_stars": "Jouer à Brawl Stars"
   },
   "animeaux": {
     "benchmark": "Benchmark",
@@ -83,11 +91,19 @@
     "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)",
     "see_more": "Voir plus ?"
   },
+  "intro": "Développeuse Frontend basé à Paris, je travaille actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que ce portfolio vous plaira et vous inspirera :)",
   "lanet": {
     "digital_agency": "Agence digital",
     "info_image": "(Un de leur projets)",
     "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles.",
     "why": "Le but de l'hackaton était de faire la refonte du site internet et challenger leur identité."
+  },
+  "menu": {
+    "about": "À propos",
+    "about_me": "À propos de moi",
+    "draw": "Dessin",
+    "paint": "Peinture",
+    "resources": "Ressources"
   },
   "paint": {
     "intro": "Ma soeur m'a offert un kit de peinture acrylique."

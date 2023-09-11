@@ -14,7 +14,7 @@ export const About = () => {
 
   return (
     <LayoutPage>
-      <Body3>About me ಠ_ಠ</Body3>
+      <Body3>{t("menu.about_me")} ಠ_ಠ</Body3>
       <Box sx={{ p: 2 }} />
       <div
         style={{
@@ -108,20 +108,20 @@ export const About = () => {
         <div>
           <SubBody>{t("about.info")}</SubBody>
           <Body4>Hi</Body4>
-          <Body4>CV</Body4>
         </div>
         <div>
           <SubBody>{t("about.whats_next")}</SubBody>
-          <Body4>Hope having a dog</Body4>
-          <Body4>Be consistent</Body4>
-          <Body4>Do more personal project</Body4>
-          <Body4>Maybe fullstack JS?</Body4>
+          <Body4>{t("about.dog")}</Body4>
+          <Body4>{t("about.consistent")}</Body4>
+          <Body4>{t("about.personal")}</Body4>
+          <Body4>{t("about.fullstack")}</Body4>
         </div>
         <div>
           <SubBody>{t("about.hobbies")}</SubBody>
-          <Body4>Love to build Lego!</Body4>
-          <Body4>Read & draw</Body4>
-          <Body4>Drink matcha</Body4>
+          <Body4>{t("about.lego")}</Body4>
+          <Body4>{t("about.read_draw")}</Body4>
+          <Body4>{t("about.matcha")}</Body4>
+          <Body4>{t("about.brawl_stars")}</Body4>
         </div>
       </div>
     </LayoutPage>

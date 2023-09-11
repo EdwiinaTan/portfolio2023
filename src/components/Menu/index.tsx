@@ -1,4 +1,5 @@
 import { Box, Button, Divider } from "@mui/material"
+import { t } from "i18next"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
 import logo from "../../../public/assets/logo.jpg"
@@ -27,18 +28,18 @@ export const Menu = () => {
         <LinkDom to="" onClick={scrollToTop}>
           <img src={logo} width={100} height={50} alt="Logo portfolio Edwina" />
         </LinkDom>
-        <Link router="about" text="About" />
+        <Link router="about" text={t("menu.about")} />
         <Link router="cv" text="CV" />
       </div>
       <Divider variant="fullWidth" />
       <div className={classes.block}>
-        <SubBody>Resources</SubBody>
+        <SubBody>{t("menu.resources")}</SubBody>
         <Link router="tech" text="Tech" />
         <Link router="design" text="Design" />
         <Box sx={{ p: 1 }}></Box>
         <SubBody>Art</SubBody>
-        <Link router="draw" text="Draw" />
-        <Link router="paint" text="Paint" />
+        <Link router="draw" text={t("menu.draw")} />
+        <Link router="paint" text={t("menu.paint")} />
         <Box sx={{ p: 1 }}></Box>
         {/* <span className={classes.title}>ETSY</span>
         <Link router="shop" text="Shop" />
