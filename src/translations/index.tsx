@@ -3,12 +3,13 @@ import {
   default as I18nextBrowserLanguageDetector,
   default as LanguageDetector,
 } from "i18next-browser-languagedetector"
-import Backend from "i18next-http-backend"
+import { default as Backend, default as XHR } from "i18next-http-backend"
 import { initReactI18next } from "react-i18next"
 import translationEN from "../../public/locales/en/translation.json"
 import translationFR from "../../public/locales/fr/translation.json"
 
 i18n
+  .use(XHR)
   .use(Backend)
   .use(LanguageDetector)
   .use(I18nextBrowserLanguageDetector)
@@ -22,13 +23,14 @@ i18n
         translation: translationFR,
       },
     },
-    lng: "en",
+    detection: { order: ["path", "navigator"], lookupQuerystring: "lng" },
     load: "languageOnly",
     fallbackLng: "en",
     supportedLngs: ["en", "fr"],
     interpolation: {
       escapeValue: false,
     },
+    debug: false,
   })
 
 export default i18n
