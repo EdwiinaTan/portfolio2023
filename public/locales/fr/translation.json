@@ -64,8 +64,9 @@
     "tech_react2": "React Native offre une expérience utilisateur similaire à celle d'une application native et propose de nombreuses fonctionnalités et composants déjà construits.",
     "tech_react3": "Il dispose d'une très large communauté de développeurs actifs, avec 1,4 million de téléchargements par semaine, et est régulièrement mis à jour.",
     "tech_react4": "C'est déjà un langage sur lequel j'ai déjà travaillé car dans mon entreprise actuelle. J'ai donc quelques connaissances et j'aimerais me perfectionner en créant cette application à partir de zéro. Cela m'a permis de mettre mes connaissances au profit de mon application, mais aussi au profit 'Flatguide', qui est l’application de mon entreprise.",
-    "tech_spe": "Specification technique",
-    "what": "Que fais l'association ?"
+    "tech_spe": "Spécification technique",
+    "what": "Que fais l'association ?",
+    "date_project": "Novembre 2022 - Juin 2023"
   },
   "cv": {
     "education": "Éducation",
@@ -85,18 +86,20 @@
   },
   "gazou": {
     "gas_stations": "Stations essences",
-    "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur."
+    "intro": "Nous devions créer un projet mobile en binôme à l'école. Durant cette période en 2022, il y a eu une grosse augmentation du prix de l'essence causé par la guerre en Ukraine. Cela avait entraîné de longue fil d'attente et des ruptures d'essence dans certaines stations services. Nous avons donc choisi de créer une application qui permet d'afficher les stations essences aux alentours en fonction de leur disponibilité et de la localisation de l'utilisateur.",
+    "date_project": "Novembre 2022"
   },
   "home": {
     "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)",
     "see_more": "Voir plus ?"
   },
-  "intro": "Développeuse Frontend basé à Paris, je travaille actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que ce portfolio vous plaira et vous inspirera :)",
+  "intro": "Développeuse Frontend basé à Paris, je travaille actuellement chez Flatsy. J'espère que ce portfolio vous plaira et vous inspirera :)",
   "lanet": {
     "digital_agency": "Agence digital",
     "info_image": "(Un de leur projets)",
-    "intro": "Le dernier hackaton que j'ai participé regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles.",
-    "why": "Le but de l'hackaton était de faire la refonte du site internet et challenger leur identité."
+    "intro": "Le dernier hackaton que j'ai participé organisé par l'ECV Digital regroupe différents profil d'étudiant de l'école dans le but de répondre à une appel d'offre de la part de La netscouade, qui a été l'agence digitale de l'année 2022. Les principales clients sont des entreprises corporates et institutionnelles.",
+    "why": "Le but de l'hackaton était de faire la refonte du site internet et challenger leur identité.",
+    "date_project": "Juin 2023"
   },
   "menu": {
     "about": "À propos",
@@ -106,9 +109,9 @@
     "resources": "Ressources"
   },
   "paint": {
-    "intro": "Ma soeur m'a offert un kit de peinture acrylique."
+    "intro": "Ma soeur m'a offert un kit de peinture acrylique, je me suis donc lancé."
   },
-  "project": "Projet",
+  
   "rick": {
     "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
   },
@@ -119,5 +122,13 @@
     "templates": "Inspiration de template"
   },
   "timeline": "Chronologie",
-  "tools": "Outils"
+  "tools": "Outils",
+  "developers": "développeurs",
+  "web_designer": "designer web",
+  "website": "Site web",
+  "repository": "Dépôt",
+  "presentation": "Présentation",
+  "team": "Équipe",
+  "project": "Projet",
+  "stack": "Langages"
 }

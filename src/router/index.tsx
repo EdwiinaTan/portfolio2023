@@ -3,7 +3,7 @@ import { Layout } from "src/components/Layout"
 import { About } from "src/pages/About"
 import { Draw } from "src/pages/Art/Draw"
 import { Paint } from "src/pages/Art/Paint"
-import { Cv } from "src/pages/Cv"
+// import { Cv } from "src/pages/Cv"
 import { Home } from "src/pages/Home"
 import { Animeaux } from "src/pages/Projects/Animeaux"
 import { Gazou } from "src/pages/Projects/Gazou"
@@ -24,10 +24,10 @@ export const router = createBrowserRouter([
         path: "/about",
         element: <About />,
       },
-      {
-        path: "/cv",
-        element: <Cv />,
-      },
+      // {
+      //   path: "/cv",
+      //   element: <Cv />,
+      // },
       {
         path: "/tech",
         element: <Tech />,
@@ -44,14 +44,14 @@ export const router = createBrowserRouter([
         path: "/draw",
         element: <Draw />,
       },
-      {
-        path: "/shop",
-        element: <Cv />,
-      },
-      {
-        path: "/inspo",
-        element: <Cv />,
-      },
+      // {
+      //   path: "/shop",
+      //   element: <Cv />,
+      // },
+      // {
+      //   path: "/inspo",
+      //   element: <Cv />,
+      // },
       {
         path: "/animeaux",
         element: <Animeaux />,

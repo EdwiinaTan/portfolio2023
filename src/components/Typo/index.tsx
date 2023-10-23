@@ -54,7 +54,7 @@ export const Body2: React.FC<TypoProps> = ({ children, style }) => {
 export const Body3: React.FC<TypoProps> = ({ children, style }) => {
   const classes = useStyles()
   return (
-    <h1 className={classes.body3} style={style}>
+    <h1 className={classes.body3} style={style} color="">
       {children}
     </h1>
   )

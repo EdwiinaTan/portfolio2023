@@ -42,12 +42,14 @@ export const Animeaux = () => {
         <Box sx={{ p: 2 }}></Box>
         <section style={{ display: "flex", justifyContent: "space-between" }}>
           <div>
-            <Body3 style={{ color: theme.palette.common.black }}>Stack</Body3>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("stack")}
+            </Body3>
             <Body4>React Native</Body4>
             <Body4>Expo</Body4>
             <Body4>React Query</Body4>
             <Body4>Material UI</Body4>
-            <Body4>Aws-Sdk</Body4>
+            <Body4>AWS-SDK</Body4>
           </div>
           <div>
             <Body3 style={{ color: theme.palette.common.black }}>
@@ -63,19 +65,19 @@ export const Animeaux = () => {
             </Body3>
             <LinkProject
               link="https://github.com/EdwiinaTan/animeaux"
-              text="Repository"
+              text={t("repository")}
             />
             <Box sx={{ p: 0.01 }}></Box>
             <LinkProject
               link="https://www.canva.com/design/DAFtTmWgpv0/nNqA5X70zZNikwJyEluYLg/edit?utm_content=DAFtTmWgpv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-              text="Presentation"
+              text={t("presentation")}
             />
           </div>
           <div>
             <Body3 style={{ color: theme.palette.common.black }}>
               {t("timeline")}
             </Body3>
-            <Body4>November 2022 - June 2023</Body4>
+            <Body4>{t("animeaux.date_project")}</Body4>
           </div>
         </section>
         <SpaceDivider />

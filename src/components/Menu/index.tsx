@@ -29,7 +29,7 @@ export const Menu = () => {
           <img src={logo} width={100} height={50} alt="Logo portfolio Edwina" />
         </LinkDom>
         <Link router="about" text={t("menu.about")} />
-        <Link router="cv" text="CV" />
+        {/* <Link router="cv" text="CV" /> */}
       </div>
       <Divider variant="fullWidth" />
       <div className={classes.block}>
@@ -41,9 +41,6 @@ export const Menu = () => {
         <Link router="draw" text={t("menu.draw")} />
         <Link router="paint" text={t("menu.paint")} />
         <Box sx={{ p: 1 }}></Box>
-        {/* <span className={classes.title}>ETSY</span>
-        <Link router="shop" text="Shop" />
-        <Link router="inspo" text="Inspo" /> */}
       </div>
       <Divider variant="fullWidth" />
       <div className={classes.block}>
@@ -57,8 +54,8 @@ export const Menu = () => {
         {/* <li onClick={() => navigate("/cv")}>EdwiiStudio</li> */}
       </div>
       <div style={{ display: "flex" }}>
-        <Button onClick={() => handleChangeLangueage("en")}>EN</Button>{" "}
         <Button onClick={() => handleChangeLangueage("fr")}>FR</Button>
+        <Button onClick={() => handleChangeLangueage("en")}>EN</Button>{" "}
       </div>
     </nav>
   )

@@ -11,6 +11,9 @@ export const theme = createTheme({
       light: "#f9eda1",
       main: "#efd94a",
     },
+    common: {
+      black: "#1D1D1F",
+    },
   },
   typography: {
     fontFamily: "SFProDisplay",

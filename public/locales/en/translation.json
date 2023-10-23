@@ -67,7 +67,8 @@
     "tech_react4": "It's a language I've already worked with at my current company. So I have some knowledge and I'd like to perfect it by creating this application from scratch. This has enabled me to put my knowledge to good use for my application, but also for 'Flatguide', which is my company's application.",
     "tech_spe": "Technical Specification",
     "translation_image": "*Adopt! Find your dream partner and give him a second chance.",
-    "what": "What the association does?"
+    "what": "What the association does?",
+    "date_project": "November 2022 - June 2023"
   },
   "cv": {
     "education": "Education",
@@ -97,8 +98,9 @@
   "lanet": {
     "digital_agency": "Digital agency",
     "info_image": "(One of their projects)",
-    "intro": "The last hackathon I participated in brought together different student profiles from the school with the aim of responding to a call for tenders from La netscouade, which was the digital agency of the year 2022. The main clients are corporate and institutional companies.",
-    "why": "The aim of the hackaton was to redesign the website and challenge their identity."
+    "intro": "The latest hackaton I took part in, organized by ECV Digital, brought together different student profiles from the school to respond to a call for tenders from La netscouade, which was named digital agency of the year 2022. The main clients are corporate and institutional companies.",
+    "why": "The aim of the hackaton was to redesign the website and challenge their identity.",
+    "date_project": "June 2023"
   },
   "menu": {
     "about": "About",
@@ -110,7 +112,6 @@
   "paint": {
     "intro": "My sister bought me acrylic paints."
   },
-  "project": "Project",
   "rick": {
     "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
   },
@@ -121,5 +122,13 @@
     "templates": "Inspiration templates"
   },
   "timeline": "Timeline",
-  "tools": "Tools"
+  "tools": "Tools",
+  "developers": "developers",
+  "web_designer": "web designer",
+  "website": "Website",
+  "repository": "Repository",
+  "presentation": "Presentation",
+  "team": "Team",
+  "project": "Project",
+  "stack": "Stack"
 }
