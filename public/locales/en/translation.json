@@ -34,7 +34,7 @@
     "hifi_prototype": "HiFi prototype",
     "intro": "During my last year at school, we had to develop a mobile project of our choice for our end-of-study project. The idea of developing and designing 'Animeaux' mobile application came from a former colleague at Flatsy where she is a volunteer in this association and she was facing various problems on mobile.",
     "learn": "What I learn",
-    "learn1": "Improving my skills in mobile and therefore react native, I was able to put into practice the skills that I was able to acquire by doing the animals project in the company project.",
+    "learn1": "Improving my skills in mobile and therefore react native, I was able to put into practice the skills that I was able to acquire by doing the Animeaux project in the company project.",
     "learn2": "The second point is that I created a project from zero in term of design. I could see that creating a real project requires a lot of time and research, whether at the level of the benchmark but also of the realization of the models, make personas, userflows, and so I understood that to create a project you not only need to have tech background but also ux/ui design.",
     "learn3": "Finally, it's to setup the dependencies well to deploy well because even if everything works locally, for builder it was not the case so you have to be careful with the dependencies. Finally the discovery of the cloud, without the project I may not have touched AWS or Airtable.",
     "low_fidelity_prototype": "Low fidelity prototype",
