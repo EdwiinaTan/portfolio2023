@@ -34,7 +34,7 @@
     "hifi_prototype": "Prototype HiFi",
     "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
     "learn": "Ce que j'ai appris",
-    "learn1": "En améliorant mes compétences en mobile et donc en react native, j'ai pu mettre en pratique les compétences que j'ai pu acquérir en réalisant le projet animaux dans le projet d'entreprise.",
+    "learn1": "En améliorant mes compétences en mobile et donc en react native, j'ai pu mettre en pratique les compétences que j'ai pu acquérir en réalisant le projet animeaux dans le projet d'entreprise.",
     "learn2": "Le deuxième point est que j'ai crée un projet à partir de zéro au niveau du design. J'ai pu voir que la création d'un vrai projet demande beaucoup de temps et de recherche, que ce soit au niveau du benchmark mais aussi de la réalisation des maquettes, faire des personas, des userflows, et donc j'ai compris que pour créer un projet il ne faut pas seulement avoir un background tech mais aussi ux/ui design.",
     "learn3": "Enfin, il faut bien paramétrer les dépendances pour bien déployer car même si tout fonctionne en local, pour builder ce n'était pas le cas donc il faut faire attention aux dépendances. Enfin la découverte du cloud, sans le projet je n'aurais peut-être pas touché à AWS ou Airtable.",
     "low_fidelity_prototype": "Prototype Lo-Fi",
