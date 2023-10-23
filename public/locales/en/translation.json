@@ -14,6 +14,7 @@
     "brawl_stars": "Play Brawl Stars"
   },
   "animeaux": {
+    "animal_association": "Back office pour une association animale",
     "benchmark": "Benchmark",
     "benchmark1": "The Animal Protection Society (SPA) is the oldest animal protection society, created in 1845. It collects animals in distress, lost, abandoned and are cared for by a site team following abandonment, exit from the pound, etc. The animals are identified then vaccinated, sterilized, cared for and educated to be offered for adoption.",
     "benchmark2": "It was created in 1995 and aims to combat all forms of animal suffering and, to do so, employs various means of action: assistance, the fight, education as well as encouragement through prizes and Visa.",
@@ -88,13 +89,13 @@
   },
   "gazou": {
     "gas_stations": "Gas stations",
-    "intro": "We had to create a mobile project in pairs at school. During this period in 2022, there was a big increase in the price of gasoline caused by the war in Ukraine. This had led to long queues and fuel shortages in some service stations. We have therefore chosen to create an application that displays nearby gas stations according to their availability and the location of the user."
+    "intro": "We had to create a mobile project in pairs at school. During this period in 2022, there was a big increase in the price of gasoline caused by the war in Ukraine. This had led to long queues and fuel shortages in some service stations. We have therefore chosen to create an application that displays nearby gas stations according to their availability and the location of the user.",
+    "date_project": "November 2022"
   },
   "home": {
     "intro": "I'am a Frontend Developer based in Paris, currently working at Flatsy. I build some fun projects with my little energy. I hope you find this portfolio enjoyable and inspiring :)",
     "see_more": "See more?"
   },
-  "intro": "I'am a Frontend Developer based in Paris, currently working at Flatsy. I build some fun projects with my little energy. I hope you find this portfolio enjoyable and inspiring :)",
   "lanet": {
     "digital_agency": "Digital agency",
     "info_image": "(One of their projects)",
@@ -113,14 +114,32 @@
     "intro": "My sister bought me acrylic paints."
   },
   "rick": {
-    "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
+    "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so",
+    "date_project": "June 2023"
   },
   "tech": {
     "ai": "AI",
     "applications": "Applications",
     "intro": "There are a lot of resources on Internet, so I wanted to bring all the websites that I find useful and relevant. I hope this will help you.",
-    "templates": "Inspiration templates"
+    "templates": "Inspiration templates",
+    "vectorizer": "Improve picture",
+    "clipdrop": "All in one",
+    "cleanup": "Remove easily everything",
+    "relume": "Create wireframe and sitemap",
+    "call_to_inspo": "By component",
+    "pixelfika": "Some cool website",
+    "mobbin": "Template for ios / android / website",
+    "page_flows": "Templates flow",
+    "page_collective": "Templates page",
+    "undesign": "List of template website",
+    "airtable": "No code database",
+    "sheety": "Create api with sheets",
+    "mockoon": "Fake data api", 
+    "responsively": "Responsive on all device",
+    "insomnia": "Postman bis",
+    "perplexity": "Chat GPT bis"
   },
+  "intro": "I'am a Frontend Developer based in Paris, currently working at Flatsy. I hope you find this portfolio enjoyable and inspiring :)",
   "timeline": "Timeline",
   "tools": "Tools",
   "developers": "developers",

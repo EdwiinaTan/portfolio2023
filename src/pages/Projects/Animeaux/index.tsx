@@ -9,6 +9,11 @@ import { Compilation } from "./Compilation"
 import { Presentation } from "./Presentation"
 import { Tech } from "./Tech"
 import banner from "/assets/animeaux/banner.png"
+import animalEdit1 from "/assets/animeaux/hifi/animalEdit1.svg"
+import animalProfil from "/assets/animeaux/hifi/animalProfil.svg"
+import animaux from "/assets/animeaux/hifi/animaux.svg"
+import connexion from "/assets/animeaux/hifi/connexion.svg"
+import createAccount from "/assets/animeaux/hifi/createAccount.svg"
 import lofi1 from "/assets/animeaux/lofi1.svg"
 import lofi2 from "/assets/animeaux/lofi2.svg"
 import persona1 from "/assets/animeaux/persona1.svg"
@@ -107,6 +112,46 @@ export const Animeaux = () => {
         <Body4>{t("animeaux.critic4")}</Body4>
         <SpaceDivider />
         <SubBody>{t("animeaux.hifi_prototype")}</SubBody>
+        <Box sx={{ p: 1 }}></Box>
+        <Body4>Page de connexion</Body4>
+        <Box sx={{ p: 0.5 }}></Box>
+        <div style={{ display: "flex", gap: 24 }}>
+          <img
+            src={connexion}
+            alt="Animeaux animal association"
+            // width="50%"
+            height={500}
+          />
+          <img
+            src={createAccount}
+            alt="Animeaux animal association"
+            // width="50%"
+            height={500}
+          />
+        </div>
+        <Box sx={{ p: 2 }}></Box>
+        <Body4>Page animal</Body4>
+        <Box sx={{ p: 0.5 }}></Box>
+        <div style={{ display: "flex", gap: 24 }}>
+          <img
+            src={animaux}
+            alt="Animeaux animal association"
+            // width="50%"
+            height={500}
+          />
+          <img
+            src={animalProfil}
+            alt="Animeaux animal association"
+            // width="50%"
+            height={500}
+          />
+          <img
+            src={animalEdit1}
+            alt="Animeaux animal association"
+            // width="50%"
+            height={500}
+          />
+        </div>
         <SpaceDivider />
         <SubBody>{t("animeaux.obstacles")}</SubBody>
         <Box sx={{ p: 1 }}></Box>

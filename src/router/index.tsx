@@ -8,6 +8,7 @@ import { Home } from "src/pages/Home"
 import { Animeaux } from "src/pages/Projects/Animeaux"
 import { Gazou } from "src/pages/Projects/Gazou"
 import { Lanetscouade } from "src/pages/Projects/Lanetscouade"
+import { Mooflix } from "src/pages/Projects/Mooflix"
 import { Rick } from "src/pages/Projects/Rick"
 import { Design } from "src/pages/Resources/Design"
 import { Tech } from "src/pages/Resources/Tech"
@@ -67,6 +68,22 @@ export const router = createBrowserRouter([
       {
         path: "/gazou",
         element: <Gazou />,
+      },
+      {
+        path: "/mooflix",
+        element: <Mooflix />,
+      },
+      {
+        path: "/switchy",
+        element: <Mooflix />,
+      },
+      {
+        path: "/tastyworld",
+        element: <Mooflix />,
+      },
+      {
+        path: "/weather",
+        element: <Mooflix />,
       },
     ],
   },

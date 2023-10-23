@@ -44,12 +44,12 @@ export const Home = () => {
       <Box sx={{ p: 2 }} />
       <Divider />
       <Box sx={{ p: 2 }} />
-      <Body3>Projects</Body3>
+      <Body3>{t("projects")}</Body3>
       <Box sx={{ p: 0.5 }} />
       <Card
         src={animeaux}
         title="01 | Animeaux"
-        subTitle="Animal association"
+        subTitle={t("animeaux.animal_association")}
         objectFit="contain"
         link="animeaux"
       />
@@ -57,7 +57,7 @@ export const Home = () => {
       <Card
         src={lanetscouade}
         title="02 | La Netscouade"
-        subTitle="Digital agency"
+        subTitle={t("lanet.digital_agency")}
         link="lanetscouade"
       />
       <Box sx={{ p: 4 }} />
@@ -85,8 +85,8 @@ export const Home = () => {
           <Card
             src={mooflix}
             title="05 | Mooflix"
-            subTitle="Allocine bis"
-            link="animeaux"
+            subTitle="Allociné bis"
+            link="mooflix"
           />
           <Box sx={{ p: 4 }} />
           <Card

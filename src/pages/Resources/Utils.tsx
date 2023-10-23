@@ -7,7 +7,7 @@ export const renderTechCard = (techArray: TechType[]) => {
       <CardTech
         image={tech.img}
         title={tech.title}
-        subtitle={tech.subtitle}
+        subtitle={tech.subtitle || ""}
         link={tech.link}
       />
     )

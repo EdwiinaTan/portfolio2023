@@ -14,6 +14,7 @@
     "brawl_stars": "Jouer à Brawl Stars"
   },
   "animeaux": {
+    "animal_association": "Back office for animal association",
     "benchmark": "Benchmark",
     "benchmark1": "La Société protectrice des animaux (SPA) est la plus ancienne société de protection des animaux, créée en 1845. Elle recueille les animaux en détresse, perdus, abandonnés et sont pris en charge par une équipe du site suite à un abandon, une sortie de fourrière, etc. Les animaux sont identifiés puis vaccinés, stérilisés, soignés et éduqués pour être proposés à l'adoption.",
     "benchmark2": "Créée en 1995, elle a pour objectif de lutter contre toutes les formes de souffrance animale et, pour ce faire, utilise différents moyens d'action : l'assistance, la lutte, l'éducation ainsi que l'encouragement par le biais de prix et de visas.",
@@ -93,7 +94,6 @@
     "intro": "Je suis un développeur Frontend basé à Paris, travaillant actuellement chez Flatsy. Je construis des projets amusants avec mon peu d'énergie. J'espère que vous trouverez ce portfolio agréable et inspirant :)",
     "see_more": "Voir plus ?"
   },
-  "intro": "Développeuse Frontend basé à Paris, je travaille actuellement chez Flatsy. J'espère que ce portfolio vous plaira et vous inspirera :)",
   "lanet": {
     "digital_agency": "Agence digital",
     "info_image": "(Un de leur projets)",
@@ -111,16 +111,36 @@
   "paint": {
     "intro": "Ma soeur m'a offert un kit de peinture acrylique, je me suis donc lancé."
   },
-  
   "rick": {
-    "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so"
+    "intro": "During my research for a post, I have an interview and I have to make a website. At the end, I choose Flatsy so",
+    "date_project": "Juin 2023"
   },
   "tech": {
     "ai": "IA",
     "applications": "Applications",
     "intro": "Il existe de nombreuses ressources sur Internet, j'ai donc souhaité rassembler tous les sites Web que je trouve utiles et pertinents. J'espère que cela t'aidera.",
-    "templates": "Inspiration de template"
+    "templates": "Inspiration de template",
+    "vectorizer": "Améliore l'image",
+    "clipdrop": "Tout en un",
+    "cleanup": "Efface tout facilement",
+    "relume": "Créer des maquettes et le plan du site",
+    "call_to_inspo": "Par composant",
+    "pixelfika": "Des sites web sympa" ,
+    "mobbin": "Modèle pour ios / android / site web",
+    "page_flows": "Modèles web",
+    "page_collective": "Modèles de page",
+    "undesign": "Liste de modèle de site web",
+    "airtable": "Base de donnée sans code",
+    "sheety": "Créer des api via google sheet",
+    "mockoon": "Fausse donnée API",
+    "responsively": "Responsive sur tout type de support",
+    "insomnia": "Postman bis",
+    "perplexity": "Chat GPT bis"
   },
+  "mooflix": {
+    "date_project": "Juin 2021"
+  },
+  "intro": "Développeuse Frontend basé à Paris, je travaille actuellement chez Flatsy. J'espère que ce portfolio vous plaira et vous inspirera :)",
   "timeline": "Chronologie",
   "tools": "Outils",
   "developers": "développeurs",
@@ -130,5 +150,6 @@
   "presentation": "Présentation",
   "team": "Équipe",
   "project": "Projet",
+  "projects": "Projets",
   "stack": "Langages"
 }

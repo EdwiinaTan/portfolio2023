@@ -73,7 +73,7 @@ export const Gazou = () => {
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
-        <SubBody>{t("animeaux.presentation")}</SubBody>
+        <SubBody>{t("presentation")}</SubBody>
         <img src={construction} alt="Under construction" width="100%" />
       </div>
     </article>

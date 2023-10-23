@@ -1,4 +1,5 @@
 import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material"
+import { t } from "i18next"
 import { Link } from "react-router-dom"
 import { theme } from "src/theme"
 import { useStyles } from "./Styles"
@@ -44,7 +45,9 @@ export const CardTech: React.FC<CardTechProps> = ({
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           {title}
         </Typography>
-        <Typography variant="body2">{subtitle}</Typography>
+        {subtitle && (
+          <Typography variant="body2">{t(`tech.${subtitle}`)}</Typography>
+        )}
       </CardContent>
     </Card>
   )

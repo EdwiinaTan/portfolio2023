@@ -2,12 +2,15 @@ import { Box, Divider } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { Link as LinkDom } from "react-router-dom"
 import { LinkTarget } from "src/components/Link"
-import { Body2, Body3, Body4, Title2 } from "src/components/Typo"
+import { Body2, Body3, Body4, SubBody } from "src/components/Typo"
 import { theme } from "src/theme"
+import { useStyles } from "../Styles"
+import construction from "/assets/construction.svg"
 import banner from "/assets/projects/rick/banner.svg"
 
 export const Rick = () => {
   const { t } = useTranslation()
+  const classes = useStyles()
 
   return (
     <article>
@@ -33,43 +36,49 @@ export const Rick = () => {
         <Box sx={{ p: 1 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
-        <section style={{ display: "flex", justifyContent: "space-between" }}>
+        <section className={classes.section}>
           <div>
-            <Body3 style={{ color: "#1D1D1F" }}>Stack</Body3>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("stack")}
+            </Body3>
             <Body4>ReactJs</Body4>
             <Body4>Material UI</Body4>
             <Body4>Mantine</Body4>
           </div>
           <div>
-            <Body3 style={{ color: "#1D1D1F" }}>Tools</Body3>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("tools")}
+            </Body3>
             <Body4>Netlify</Body4>
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <Body3 style={{ color: "#1D1D1F" }}>Project</Body3>
+          <div className={classes.title}>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("project")}
+            </Body3>
             <LinkTarget
               link="https://gitlab.com/Yutsu/gazou"
-              text="Repository"
+              text={t("repository")}
             />
             <LinkDom
               to="https://rick-and-morty-app-myjob.netlify.app/"
               target="_blank"
               rel="noopener"
             >
-              Website
+              {t("website")}
             </LinkDom>
           </div>
           <div>
-            <Body3 style={{ color: "#1D1D1F" }}>Timeline</Body3>
-            <Body4>June 2023</Body4>
+            <Body3 style={{ color: theme.palette.common.black }}>
+              {t("timeline")}
+            </Body3>
+            <Body4>{t("rick.date_project")}</Body4>
           </div>
         </section>
         <Box sx={{ p: 2 }}></Box>
         <Divider />
         <Box sx={{ p: 2 }}></Box>
-        <Title2 style={{ textAlign: "center" }}>
-          {t("animeaux.presentation")}
-        </Title2>
-        <Box sx={{ p: 1 }}></Box>
+        <SubBody>{t("presentation")}</SubBody>
+        <img src={construction} alt="Under construction" width="100%" />
       </div>
     </article>
   )
