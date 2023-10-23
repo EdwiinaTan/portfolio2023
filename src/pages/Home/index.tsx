@@ -10,9 +10,6 @@ import gazou from "/assets/gazou/gazou.jpeg"
 import lanetscouade from "/assets/lanetscouade/lanetscouade.png"
 import mooflix from "/assets/projects/mooflix/mooflix.jpeg"
 import rick from "/assets/projects/rick/rick.svg"
-import switchy from "/assets/switchy/switchy.jpeg"
-import tastyworld from "/assets/tastyworld/tastyworld.png"
-import weather from "/assets/weather/weather.png"
 
 export const Home = () => {
   const classes = useStyles()
@@ -89,7 +86,7 @@ export const Home = () => {
             link="mooflix"
           />
           <Box sx={{ p: 4 }} />
-          <Card
+          {/* <Card
             src={switchy}
             title="06 | Switchy"
             subTitle="Games"
@@ -108,7 +105,7 @@ export const Home = () => {
             title="08 | Weather"
             subTitle="Cloudy"
             link="animeaux"
-          />
+          /> */}
         </>
       )}
       <Box sx={{ p: 4 }} />
