@@ -11,7 +11,8 @@
     "lego": "J'aime constuire des Lego",
     "read_draw": "Lire et dessiner",
     "matcha": "Boire du matcha",
-    "brawl_stars": "Jouer à Brawl Stars"
+    "brawl_stars": "Jouer à Brawl Stars",
+    "presentation_canva": "Canva"
   },
   "animeaux": {
     "animal_association": "Back office pour une association animale",
@@ -21,7 +22,7 @@
     "benchmark3": "C'est une association engagée dans la protection animale et l'écologie, qui veut sauver tous les animaux sans distinction d'espèce, de race ou d'âge et vise à encourager les principes de protection des animaux ainsi que des ressources naturelles.",
     "compilation": "Sélection",
     "critic1": "Par mes camarades de classes",
-    "critic2": "Eliott : Il serait bon de n'avoir que des icônes dans le menu, en particulier pour la famille d'accueil, afin qu'il soit cohérent.",
+    "critic2": "Eliott : Il serait bien de n'avoir que des icônes dans le menu, en particulier pour la famille d'accueil, afin qu'il soit cohérent.",
     "critic3": "Coraline : Peut-être qu'au lieu de mettre 'Profil de l'animal',  c’est mieux de mettre le nom de l'animal dans le titre, par exemple : 'Profil de Peanut'.",
     "critic4": "Dalinda : Je pense qu'il est préférable d'avoir une bottomSheet plutôt qu'une modale, sur le dernier modèle, pour passer à un autre écran.",
     "critic_session": "Session critique",
@@ -32,7 +33,7 @@
     "goal4": "Des statistiques seront également affichées dans l'application, ce qui permettra aux bénévoles de connaître les raisons de l'abandon des animaux et d'adapter leur communication sur les réseaux sociaux.",
     "help_volunteers": "Aider les bénévoles",
     "hifi_prototype": "Prototype HiFi",
-    "intro": "Lors de notre dernière année à l'école, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
+    "intro": "Lors de ma dernière année à l'ECV Digital, nous avions pour obligation de développer un projet mobile au choix pour notre projet de fin d'étude. L’idée d'avoir conçu et développé l’application mobile 'animaux' a été grâce à une ancienne collègue de chez Flatsy où elle est bénévole dans cette association et elle faisait face à divers problèmes sur mobile.",
     "learn": "Ce que j'ai appris",
     "learn1": "En améliorant mes compétences en mobile et donc en react native, j'ai pu mettre en pratique les compétences que j'ai pu acquérir en réalisant le projet animeaux dans le projet d'entreprise.",
     "learn2": "Le deuxième point est que j'ai crée un projet à partir de zéro au niveau du design. J'ai pu voir que la création d'un vrai projet demande beaucoup de temps et de recherche, que ce soit au niveau du benchmark mais aussi de la réalisation des maquettes, faire des personas, des userflows, et donc j'ai compris que pour créer un projet il ne faut pas seulement avoir un background tech mais aussi ux/ui design.",

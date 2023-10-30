@@ -1,6 +1,7 @@
 import { Box } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import { LayoutPage } from "src/components/Layout"
+import { LinkProject } from "src/components/Link"
 import { Body3, Body4, SubBody } from "src/components/Typo"
 import me from "/assets/about/image1.png"
 import me2 from "/assets/about/image2.png"
@@ -107,7 +108,11 @@ export const About = () => {
       >
         <div>
           <SubBody>{t("about.info")}</SubBody>
-          <Body4>Hi</Body4>
+          <Body4>Hi 🦉</Body4>
+          <LinkProject
+            link="https://www.linkedin.com/in/edwina-tan-977bb5159/"
+            text={t("about.presentation_canva")}
+          />
         </div>
         <div>
           <SubBody>{t("about.whats_next")}</SubBody>
